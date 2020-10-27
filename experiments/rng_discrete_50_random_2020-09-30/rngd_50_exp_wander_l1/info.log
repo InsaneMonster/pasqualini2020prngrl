@@ -1,0 +1,143 @@
+2020-09-30 11:23:48,988 - INFO - Setup of experiment rngd_50_exp_wander_l1...
+2020-09-30 11:23:48,988 - INFO - Environment setup...
+2020-09-30 11:23:48,989 - INFO - Environment setup is successful
+2020-09-30 11:23:48,989 - INFO - Agent setup...
+2020-09-30 11:23:48,989 - INFO - Setup of agent random_agent with scope rngd_50_exp_wander_l1...
+2020-09-30 11:23:48,989 - INFO - Agent setup is successful
+2020-09-30 11:23:48,989 - INFO - Tensorflow configuration is successful
+2020-09-30 11:23:48,990 - INFO - Matplotlib configuration is successful
+2020-09-30 11:23:48,990 - INFO - Experiment setup is successful
+2020-09-30 11:23:48,990 - INFO - Experiment rngd_50_exp_wander_l1: training process started
+2020-09-30 11:23:48,995 - INFO - Initializing the environment...
+2020-09-30 11:23:48,995 - INFO - Environment initialized
+2020-09-30 11:23:48,995 - INFO - Initializing the agent..
+2020-09-30 11:23:48,995 - INFO - Agent initialized
+2020-09-30 11:23:48,995 - INFO - _____________________________________________________________________________________
+2020-09-30 11:23:48,995 - INFO - Setup of training volley 0...
+2020-09-30 11:23:48,995 - INFO - Setup of training volley 0 completed
+2020-09-30 11:23:48,995 - INFO - Training for 100 episodes...
+2020-09-30 11:23:52,762 - INFO - Training for 100 episodes finished with following result:
+2020-09-30 11:23:52,762 - INFO - Average total reward: 0.039
+2020-09-30 11:23:52,762 - INFO - Standard deviation of total reward: 0.046
+2020-09-30 11:23:52,762 - INFO - Average scaled reward: 0.0
+2020-09-30 11:23:52,763 - INFO - Standard deviation of scaled reward: 0.0
+2020-09-30 11:23:52,763 - INFO - Average episode length: 200.0 steps
+2020-09-30 11:23:52,763 - INFO - Save training volley 0 episodes plots...
+2020-09-30 11:23:53,392 - INFO - Plots of training volley 0 saved successfully
+2020-09-30 11:23:53,392 - INFO - Training volley 0 is completed
+2020-09-30 11:23:53,392 - INFO - Training steps up to now: 19900
+2020-09-30 11:23:53,392 - INFO - _____________________________________________________________________________________
+2020-09-30 11:23:53,392 - INFO - ---------------------------------------------------------------------------------------
+2020-09-30 11:23:53,392 - INFO - Setup of validation volley 0...
+2020-09-30 11:23:53,392 - INFO - Setup of validation volley 0 completed
+2020-09-30 11:23:53,392 - INFO - Validating for 100 episodes...
+2020-09-30 11:24:20,658 - INFO - Validating for 100 episodes finished with following result:
+2020-09-30 11:24:20,658 - INFO - Average total reward: 0.041
+2020-09-30 11:24:20,658 - INFO - Standard deviation of total reward: 0.042
+2020-09-30 11:24:20,658 - INFO - Average scaled reward: 0.0
+2020-09-30 11:24:20,658 - INFO - Standard deviation of scaled reward: 0.0
+2020-09-30 11:24:20,658 - INFO - Average episode length: 200.0 steps
+2020-09-30 11:24:20,658 - INFO - Save validation volley 0 episodes plots...
+2020-09-30 11:24:21,140 - INFO - Plots of validation volley 0 saved successfully
+2020-09-30 11:24:21,141 - INFO - Validation volley 0 is completed
+2020-09-30 11:24:21,141 - INFO - ---------------------------------------------------------------------------------------
+2020-09-30 11:24:21,141 - INFO - End of training
+2020-09-30 11:24:21,141 - INFO - Experiment rngd_50_exp_wander_l1: testing process started
+2020-09-30 11:24:21,145 - INFO - Initializing the environment...
+2020-09-30 11:24:21,145 - INFO - Environment initialized
+2020-09-30 11:24:21,146 - INFO - Initializing the agent..
+2020-09-30 11:24:21,146 - INFO - Agent initialized
+2020-09-30 11:24:21,146 - INFO - Restoring agent graph with checkpoint path: ./experiments/rng_discrete_50_random_2020-09-30/rngd_50_exp_wander_l1/metagraph
+2020-09-30 11:24:21,146 - INFO - Agent restored
+2020-09-30 11:24:21,146 - INFO - Setup of test volley 0...
+2020-09-30 11:24:21,146 - INFO - Testing for 100 episodes...
+2020-09-30 11:24:47,176 - INFO - Testing for 100 episodes finished with following result:
+2020-09-30 11:24:47,176 - INFO - Average total reward: 0.047
+2020-09-30 11:24:47,176 - INFO - Standard deviation of total reward: 0.045
+2020-09-30 11:24:47,176 - INFO - Average scaled reward: 0.0
+2020-09-30 11:24:47,176 - INFO - Standard deviation of scaled reward: 0.0
+2020-09-30 11:24:47,176 - INFO - Average episode length: 200.0 steps
+2020-09-30 11:24:47,176 - INFO - Setup of test volley 1...
+2020-09-30 11:24:47,177 - INFO - Testing for 100 episodes...
+2020-09-30 11:25:14,285 - INFO - Testing for 100 episodes finished with following result:
+2020-09-30 11:25:14,285 - INFO - Average total reward: 0.035
+2020-09-30 11:25:14,285 - INFO - Standard deviation of total reward: 0.033
+2020-09-30 11:25:14,285 - INFO - Average scaled reward: 0.0
+2020-09-30 11:25:14,285 - INFO - Standard deviation of scaled reward: 0.0
+2020-09-30 11:25:14,285 - INFO - Average episode length: 200.0 steps
+2020-09-30 11:25:14,285 - INFO - Setup of test volley 2...
+2020-09-30 11:25:14,285 - INFO - Testing for 100 episodes...
+2020-09-30 11:25:40,119 - INFO - Testing for 100 episodes finished with following result:
+2020-09-30 11:25:40,119 - INFO - Average total reward: 0.036
+2020-09-30 11:25:40,119 - INFO - Standard deviation of total reward: 0.039
+2020-09-30 11:25:40,119 - INFO - Average scaled reward: 0.0
+2020-09-30 11:25:40,119 - INFO - Standard deviation of scaled reward: 0.0
+2020-09-30 11:25:40,119 - INFO - Average episode length: 200.0 steps
+2020-09-30 11:25:40,119 - INFO - Setup of test volley 3...
+2020-09-30 11:25:40,120 - INFO - Testing for 100 episodes...
+2020-09-30 11:26:06,479 - INFO - Testing for 100 episodes finished with following result:
+2020-09-30 11:26:06,479 - INFO - Average total reward: 0.041
+2020-09-30 11:26:06,479 - INFO - Standard deviation of total reward: 0.042
+2020-09-30 11:26:06,479 - INFO - Average scaled reward: 0.0
+2020-09-30 11:26:06,479 - INFO - Standard deviation of scaled reward: 0.0
+2020-09-30 11:26:06,479 - INFO - Average episode length: 200.0 steps
+2020-09-30 11:26:06,479 - INFO - Setup of test volley 4...
+2020-09-30 11:26:06,480 - INFO - Testing for 100 episodes...
+2020-09-30 11:26:33,138 - INFO - Testing for 100 episodes finished with following result:
+2020-09-30 11:26:33,139 - INFO - Average total reward: 0.042
+2020-09-30 11:26:33,139 - INFO - Standard deviation of total reward: 0.044
+2020-09-30 11:26:33,139 - INFO - Average scaled reward: 0.0
+2020-09-30 11:26:33,139 - INFO - Standard deviation of scaled reward: 0.0
+2020-09-30 11:26:33,139 - INFO - Average episode length: 200.0 steps
+2020-09-30 11:26:33,139 - INFO - Setup of test volley 5...
+2020-09-30 11:26:33,139 - INFO - Testing for 100 episodes...
+2020-09-30 11:26:58,675 - INFO - Testing for 100 episodes finished with following result:
+2020-09-30 11:26:58,675 - INFO - Average total reward: 0.041
+2020-09-30 11:26:58,675 - INFO - Standard deviation of total reward: 0.04
+2020-09-30 11:26:58,675 - INFO - Average scaled reward: 0.0
+2020-09-30 11:26:58,675 - INFO - Standard deviation of scaled reward: 0.0
+2020-09-30 11:26:58,675 - INFO - Average episode length: 200.0 steps
+2020-09-30 11:26:58,675 - INFO - Setup of test volley 6...
+2020-09-30 11:26:58,676 - INFO - Testing for 100 episodes...
+2020-09-30 11:27:23,547 - INFO - Testing for 100 episodes finished with following result:
+2020-09-30 11:27:23,547 - INFO - Average total reward: 0.046
+2020-09-30 11:27:23,547 - INFO - Standard deviation of total reward: 0.05
+2020-09-30 11:27:23,547 - INFO - Average scaled reward: 0.0
+2020-09-30 11:27:23,547 - INFO - Standard deviation of scaled reward: 0.0
+2020-09-30 11:27:23,547 - INFO - Average episode length: 200.0 steps
+2020-09-30 11:27:23,547 - INFO - Setup of test volley 7...
+2020-09-30 11:27:23,548 - INFO - Testing for 100 episodes...
+2020-09-30 11:27:50,494 - INFO - Testing for 100 episodes finished with following result:
+2020-09-30 11:27:50,495 - INFO - Average total reward: 0.037
+2020-09-30 11:27:50,495 - INFO - Standard deviation of total reward: 0.041
+2020-09-30 11:27:50,495 - INFO - Average scaled reward: 0.0
+2020-09-30 11:27:50,495 - INFO - Standard deviation of scaled reward: 0.0
+2020-09-30 11:27:50,495 - INFO - Average episode length: 200.0 steps
+2020-09-30 11:27:50,495 - INFO - Setup of test volley 8...
+2020-09-30 11:27:50,495 - INFO - Testing for 100 episodes...
+2020-09-30 11:28:18,111 - INFO - Testing for 100 episodes finished with following result:
+2020-09-30 11:28:18,111 - INFO - Average total reward: 0.044
+2020-09-30 11:28:18,111 - INFO - Standard deviation of total reward: 0.046
+2020-09-30 11:28:18,111 - INFO - Average scaled reward: 0.0
+2020-09-30 11:28:18,111 - INFO - Standard deviation of scaled reward: 0.0
+2020-09-30 11:28:18,111 - INFO - Average episode length: 200.0 steps
+2020-09-30 11:28:18,111 - INFO - Setup of test volley 9...
+2020-09-30 11:28:18,111 - INFO - Testing for 100 episodes...
+2020-09-30 11:28:44,435 - INFO - Testing for 100 episodes finished with following result:
+2020-09-30 11:28:44,436 - INFO - Average total reward: 0.042
+2020-09-30 11:28:44,436 - INFO - Standard deviation of total reward: 0.04
+2020-09-30 11:28:44,436 - INFO - Average scaled reward: 0.0
+2020-09-30 11:28:44,436 - INFO - Standard deviation of scaled reward: 0.0
+2020-09-30 11:28:44,436 - INFO - Average episode length: 200.0 steps
+2020-09-30 11:28:44,436 - INFO - End of test
+2020-09-30 11:28:44,436 - INFO - Results over 10 test volleys of 100 episodes each are:
+2020-09-30 11:28:44,436 - INFO - Average test total reward: 0.041
+2020-09-30 11:28:44,436 - INFO - Average test scaled reward: 0.0
+2020-09-30 11:28:44,436 - INFO - Max test total reward: 0.047
+2020-09-30 11:28:44,436 - INFO - Max test scaled reward: 0.0
+2020-09-30 11:28:44,436 - INFO - Average test standard deviation of total reward: 0.042
+2020-09-30 11:28:44,436 - INFO - Average test standard deviation of scaled reward: 0.0
+2020-09-30 11:28:44,436 - INFO - Min test standard deviation of total reward: 0.033
+2020-09-30 11:28:44,436 - INFO - Min test standard deviation of scaled reward: 0.0
+2020-09-30 11:28:44,436 - INFO - Average test episode length: 200.0
+2020-09-30 11:28:44,436 - INFO - The experiment terminated without meeting the requirements

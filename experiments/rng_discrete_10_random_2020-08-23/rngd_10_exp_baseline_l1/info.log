@@ -1,0 +1,143 @@
+2020-08-23 13:54:21,504 - INFO - Setup of experiment rngd_10_exp_baseline_l1...
+2020-08-23 13:54:21,504 - INFO - Environment setup...
+2020-08-23 13:54:21,505 - INFO - Environment setup is successful
+2020-08-23 13:54:21,505 - INFO - Agent setup...
+2020-08-23 13:54:21,505 - INFO - Setup of agent random_agent with scope rngd_10_exp_baseline_l1...
+2020-08-23 13:54:21,505 - INFO - Agent setup is successful
+2020-08-23 13:54:21,506 - INFO - Tensorflow configuration is successful
+2020-08-23 13:54:21,508 - INFO - Matplotlib configuration is successful
+2020-08-23 13:54:21,508 - INFO - Experiment setup is successful
+2020-08-23 13:54:21,508 - INFO - Experiment rngd_10_exp_baseline_l1: training process started
+2020-08-23 13:54:21,723 - INFO - Initializing the environment...
+2020-08-23 13:54:21,724 - INFO - Environment initialized
+2020-08-23 13:54:21,724 - INFO - Initializing the agent..
+2020-08-23 13:54:21,724 - INFO - Agent initialized
+2020-08-23 13:54:21,724 - INFO - _____________________________________________________________________________________
+2020-08-23 13:54:21,724 - INFO - Setup of training volley 0...
+2020-08-23 13:54:21,724 - INFO - Setup of training volley 0 completed
+2020-08-23 13:54:21,724 - INFO - Training for 100 episodes...
+2020-08-23 13:54:22,140 - INFO - Training for 100 episodes finished with following result:
+2020-08-23 13:54:22,140 - INFO - Average total reward: 0.138
+2020-08-23 13:54:22,140 - INFO - Standard deviation of total reward: 0.086
+2020-08-23 13:54:22,140 - INFO - Average scaled reward: 0.003
+2020-08-23 13:54:22,140 - INFO - Standard deviation of scaled reward: 0.002
+2020-08-23 13:54:22,140 - INFO - Average episode length: 40.0 steps
+2020-08-23 13:54:22,140 - INFO - Save training volley 0 episodes plots...
+2020-08-23 13:54:22,519 - INFO - Plots of training volley 0 saved successfully
+2020-08-23 13:54:22,519 - INFO - Training volley 0 is completed
+2020-08-23 13:54:22,519 - INFO - Training steps up to now: 3900
+2020-08-23 13:54:22,519 - INFO - _____________________________________________________________________________________
+2020-08-23 13:54:22,519 - INFO - ---------------------------------------------------------------------------------------
+2020-08-23 13:54:22,519 - INFO - Setup of validation volley 0...
+2020-08-23 13:54:22,520 - INFO - Setup of validation volley 0 completed
+2020-08-23 13:54:22,520 - INFO - Validating for 100 episodes...
+2020-08-23 13:54:22,920 - INFO - Validating for 100 episodes finished with following result:
+2020-08-23 13:54:22,920 - INFO - Average total reward: 0.146
+2020-08-23 13:54:22,920 - INFO - Standard deviation of total reward: 0.09
+2020-08-23 13:54:22,920 - INFO - Average scaled reward: 0.004
+2020-08-23 13:54:22,920 - INFO - Standard deviation of scaled reward: 0.002
+2020-08-23 13:54:22,920 - INFO - Average episode length: 40.0 steps
+2020-08-23 13:54:22,920 - INFO - Save validation volley 0 episodes plots...
+2020-08-23 13:54:23,255 - INFO - Plots of validation volley 0 saved successfully
+2020-08-23 13:54:23,255 - INFO - Validation volley 0 is completed
+2020-08-23 13:54:23,255 - INFO - ---------------------------------------------------------------------------------------
+2020-08-23 13:54:23,255 - INFO - End of training
+2020-08-23 13:54:23,256 - INFO - Experiment rngd_10_exp_baseline_l1: testing process started
+2020-08-23 13:54:23,259 - INFO - Initializing the environment...
+2020-08-23 13:54:23,259 - INFO - Environment initialized
+2020-08-23 13:54:23,259 - INFO - Initializing the agent..
+2020-08-23 13:54:23,259 - INFO - Agent initialized
+2020-08-23 13:54:23,259 - INFO - Restoring agent graph with checkpoint path: ./experiments/rng_discrete_10_random_2020-08-23/rngd_10_exp_baseline_l1/metagraph
+2020-08-23 13:54:23,259 - INFO - Agent restored
+2020-08-23 13:54:23,259 - INFO - Setup of test volley 0...
+2020-08-23 13:54:23,259 - INFO - Testing for 100 episodes...
+2020-08-23 13:54:24,428 - INFO - Testing for 100 episodes finished with following result:
+2020-08-23 13:54:24,428 - INFO - Average total reward: 0.141
+2020-08-23 13:54:24,428 - INFO - Standard deviation of total reward: 0.082
+2020-08-23 13:54:24,428 - INFO - Average scaled reward: 0.004
+2020-08-23 13:54:24,428 - INFO - Standard deviation of scaled reward: 0.002
+2020-08-23 13:54:24,428 - INFO - Average episode length: 40.0 steps
+2020-08-23 13:54:24,428 - INFO - Setup of test volley 1...
+2020-08-23 13:54:24,428 - INFO - Testing for 100 episodes...
+2020-08-23 13:54:25,583 - INFO - Testing for 100 episodes finished with following result:
+2020-08-23 13:54:25,583 - INFO - Average total reward: 0.137
+2020-08-23 13:54:25,583 - INFO - Standard deviation of total reward: 0.081
+2020-08-23 13:54:25,583 - INFO - Average scaled reward: 0.003
+2020-08-23 13:54:25,583 - INFO - Standard deviation of scaled reward: 0.002
+2020-08-23 13:54:25,583 - INFO - Average episode length: 40.0 steps
+2020-08-23 13:54:25,583 - INFO - Setup of test volley 2...
+2020-08-23 13:54:25,584 - INFO - Testing for 100 episodes...
+2020-08-23 13:54:26,746 - INFO - Testing for 100 episodes finished with following result:
+2020-08-23 13:54:26,747 - INFO - Average total reward: 0.142
+2020-08-23 13:54:26,747 - INFO - Standard deviation of total reward: 0.085
+2020-08-23 13:54:26,747 - INFO - Average scaled reward: 0.004
+2020-08-23 13:54:26,747 - INFO - Standard deviation of scaled reward: 0.002
+2020-08-23 13:54:26,747 - INFO - Average episode length: 40.0 steps
+2020-08-23 13:54:26,747 - INFO - Setup of test volley 3...
+2020-08-23 13:54:26,747 - INFO - Testing for 100 episodes...
+2020-08-23 13:54:27,915 - INFO - Testing for 100 episodes finished with following result:
+2020-08-23 13:54:27,915 - INFO - Average total reward: 0.147
+2020-08-23 13:54:27,915 - INFO - Standard deviation of total reward: 0.08
+2020-08-23 13:54:27,915 - INFO - Average scaled reward: 0.004
+2020-08-23 13:54:27,915 - INFO - Standard deviation of scaled reward: 0.002
+2020-08-23 13:54:27,915 - INFO - Average episode length: 40.0 steps
+2020-08-23 13:54:27,915 - INFO - Setup of test volley 4...
+2020-08-23 13:54:27,915 - INFO - Testing for 100 episodes...
+2020-08-23 13:54:29,103 - INFO - Testing for 100 episodes finished with following result:
+2020-08-23 13:54:29,103 - INFO - Average total reward: 0.142
+2020-08-23 13:54:29,103 - INFO - Standard deviation of total reward: 0.083
+2020-08-23 13:54:29,103 - INFO - Average scaled reward: 0.004
+2020-08-23 13:54:29,103 - INFO - Standard deviation of scaled reward: 0.002
+2020-08-23 13:54:29,103 - INFO - Average episode length: 40.0 steps
+2020-08-23 13:54:29,103 - INFO - Setup of test volley 5...
+2020-08-23 13:54:29,103 - INFO - Testing for 100 episodes...
+2020-08-23 13:54:30,263 - INFO - Testing for 100 episodes finished with following result:
+2020-08-23 13:54:30,263 - INFO - Average total reward: 0.154
+2020-08-23 13:54:30,263 - INFO - Standard deviation of total reward: 0.09
+2020-08-23 13:54:30,263 - INFO - Average scaled reward: 0.004
+2020-08-23 13:54:30,263 - INFO - Standard deviation of scaled reward: 0.002
+2020-08-23 13:54:30,263 - INFO - Average episode length: 40.0 steps
+2020-08-23 13:54:30,263 - INFO - Setup of test volley 6...
+2020-08-23 13:54:30,263 - INFO - Testing for 100 episodes...
+2020-08-23 13:54:31,432 - INFO - Testing for 100 episodes finished with following result:
+2020-08-23 13:54:31,432 - INFO - Average total reward: 0.148
+2020-08-23 13:54:31,432 - INFO - Standard deviation of total reward: 0.09
+2020-08-23 13:54:31,432 - INFO - Average scaled reward: 0.004
+2020-08-23 13:54:31,432 - INFO - Standard deviation of scaled reward: 0.002
+2020-08-23 13:54:31,432 - INFO - Average episode length: 40.0 steps
+2020-08-23 13:54:31,432 - INFO - Setup of test volley 7...
+2020-08-23 13:54:31,432 - INFO - Testing for 100 episodes...
+2020-08-23 13:54:32,587 - INFO - Testing for 100 episodes finished with following result:
+2020-08-23 13:54:32,587 - INFO - Average total reward: 0.15
+2020-08-23 13:54:32,587 - INFO - Standard deviation of total reward: 0.085
+2020-08-23 13:54:32,587 - INFO - Average scaled reward: 0.004
+2020-08-23 13:54:32,587 - INFO - Standard deviation of scaled reward: 0.002
+2020-08-23 13:54:32,587 - INFO - Average episode length: 40.0 steps
+2020-08-23 13:54:32,587 - INFO - Setup of test volley 8...
+2020-08-23 13:54:32,587 - INFO - Testing for 100 episodes...
+2020-08-23 13:54:33,751 - INFO - Testing for 100 episodes finished with following result:
+2020-08-23 13:54:33,751 - INFO - Average total reward: 0.163
+2020-08-23 13:54:33,751 - INFO - Standard deviation of total reward: 0.092
+2020-08-23 13:54:33,751 - INFO - Average scaled reward: 0.004
+2020-08-23 13:54:33,751 - INFO - Standard deviation of scaled reward: 0.002
+2020-08-23 13:54:33,751 - INFO - Average episode length: 40.0 steps
+2020-08-23 13:54:33,751 - INFO - Setup of test volley 9...
+2020-08-23 13:54:33,751 - INFO - Testing for 100 episodes...
+2020-08-23 13:54:34,909 - INFO - Testing for 100 episodes finished with following result:
+2020-08-23 13:54:34,909 - INFO - Average total reward: 0.145
+2020-08-23 13:54:34,909 - INFO - Standard deviation of total reward: 0.091
+2020-08-23 13:54:34,909 - INFO - Average scaled reward: 0.004
+2020-08-23 13:54:34,909 - INFO - Standard deviation of scaled reward: 0.002
+2020-08-23 13:54:34,909 - INFO - Average episode length: 40.0 steps
+2020-08-23 13:54:34,909 - INFO - End of test
+2020-08-23 13:54:34,909 - INFO - Results over 10 test volleys of 100 episodes each are:
+2020-08-23 13:54:34,910 - INFO - Average test total reward: 0.147
+2020-08-23 13:54:34,910 - INFO - Average test scaled reward: 0.004
+2020-08-23 13:54:34,910 - INFO - Max test total reward: 0.163
+2020-08-23 13:54:34,910 - INFO - Max test scaled reward: 0.004
+2020-08-23 13:54:34,910 - INFO - Average test standard deviation of total reward: 0.086
+2020-08-23 13:54:34,910 - INFO - Average test standard deviation of scaled reward: 0.002
+2020-08-23 13:54:34,910 - INFO - Min test standard deviation of total reward: 0.08
+2020-08-23 13:54:34,910 - INFO - Min test standard deviation of scaled reward: 0.002
+2020-08-23 13:54:34,910 - INFO - Average test episode length: 40.0
+2020-08-23 13:54:34,910 - INFO - The experiment terminated without meeting the requirements

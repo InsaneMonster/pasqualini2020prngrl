@@ -1,0 +1,1229 @@
+2020-10-20 11:18:31,364 - INFO - Setup of experiment rngad_10_exp_baseline_l1...
+2020-10-20 11:18:31,364 - INFO - Environment setup...
+2020-10-20 11:18:31,378 - INFO - Environment setup is successful
+2020-10-20 11:18:31,378 - INFO - Agent setup...
+2020-10-20 11:18:31,379 - INFO - Setup of agent ppo_agent with scope rngad_10_exp_baseline_l1...
+2020-10-20 11:18:31,379 - INFO - Generating model ppo_model with scope rngad_10_exp_baseline_l1/ppo_agent...
+2020-10-20 11:18:31,379 - INFO - Model generation successful
+2020-10-20 11:18:32,167 - INFO - A Tensorboard summary for the agent will be updated during training of its internal model
+2020-10-20 11:18:32,167 - INFO - Tensorboard summary path: F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/summary
+2020-10-20 11:18:32,178 - INFO - Agent model metagraph will be saved after each training/validation pair. A set of 5 models will be stored.
+2020-10-20 11:18:32,178 - INFO - Agent model metagraphs are saved at F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1
+2020-10-20 11:18:32,178 - INFO - Agent setup is successful
+2020-10-20 11:18:32,178 - INFO - Tensorflow configuration is successful
+2020-10-20 11:18:32,178 - INFO - Matplotlib configuration is successful
+2020-10-20 11:18:32,178 - INFO - Experiment setup is successful
+2020-10-20 11:18:32,178 - INFO - Experiment rngad_10_exp_baseline_l1: training process started
+2020-10-20 11:18:32,775 - INFO - Initializing the environment...
+2020-10-20 11:18:32,775 - INFO - Environment initialized
+2020-10-20 11:18:32,776 - INFO - Initializing the agent..
+2020-10-20 11:18:32,872 - INFO - Model initialized to default state
+2020-10-20 11:18:32,872 - INFO - Agent initialized
+2020-10-20 11:18:32,873 - INFO - _____________________________________________________________________________________
+2020-10-20 11:18:32,873 - INFO - Setup of training volley 0...
+2020-10-20 11:18:32,873 - INFO - Setup of training volley 0 completed
+2020-10-20 11:18:32,873 - INFO - Training for 2000 episodes...
+2020-10-20 11:19:49,133 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 11:32:59,881 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 11:43:30,743 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 11:43:30,743 - INFO - Average total reward: 0.368
+2020-10-20 11:43:30,743 - INFO - Standard deviation of total reward: 0.097
+2020-10-20 11:43:30,743 - INFO - Average scaled reward: 0.004
+2020-10-20 11:43:30,743 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 11:43:30,743 - INFO - Average episode length: 100.0 steps
+2020-10-20 11:43:30,743 - INFO - Save training volley 0 episodes plots...
+2020-10-20 11:43:31,174 - INFO - Plots of training volley 0 saved successfully
+2020-10-20 11:43:31,174 - INFO - Training volley 0 is completed
+2020-10-20 11:43:31,174 - INFO - Training steps up to now: 198000
+2020-10-20 11:43:31,174 - INFO - _____________________________________________________________________________________
+2020-10-20 11:43:31,174 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 11:43:31,174 - INFO - Setup of validation volley 0...
+2020-10-20 11:43:31,174 - INFO - Setup of validation volley 0 completed
+2020-10-20 11:43:31,174 - INFO - Validating for 100 episodes...
+2020-10-20 11:43:52,547 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 11:43:52,547 - INFO - Average total reward: 0.372
+2020-10-20 11:43:52,547 - INFO - Standard deviation of total reward: 0.099
+2020-10-20 11:43:52,547 - INFO - Average scaled reward: 0.004
+2020-10-20 11:43:52,547 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 11:43:52,547 - INFO - Average episode length: 100.0 steps
+2020-10-20 11:43:52,547 - INFO - Save validation volley 0 episodes plots...
+2020-10-20 11:43:52,844 - INFO - Plots of validation volley 0 saved successfully
+2020-10-20 11:43:52,844 - INFO - Validation volley 0 is completed
+2020-10-20 11:43:52,844 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 11:43:52,844 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 11:43:52,953 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 11:43:52,953 - INFO - _____________________________________________________________________________________
+2020-10-20 11:43:52,953 - INFO - Setup of training volley 1...
+2020-10-20 11:43:52,954 - INFO - Setup of training volley 1 completed
+2020-10-20 11:43:52,954 - INFO - Training for 2000 episodes...
+2020-10-20 11:45:08,964 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 11:57:19,958 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 12:08:07,836 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 12:08:07,837 - INFO - Average total reward: 0.38
+2020-10-20 12:08:07,837 - INFO - Standard deviation of total reward: 0.101
+2020-10-20 12:08:07,837 - INFO - Average scaled reward: 0.004
+2020-10-20 12:08:07,837 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 12:08:07,837 - INFO - Average episode length: 100.0 steps
+2020-10-20 12:08:07,837 - INFO - Save training volley 1 episodes plots...
+2020-10-20 12:08:08,156 - INFO - Plots of training volley 1 saved successfully
+2020-10-20 12:08:08,156 - INFO - Training volley 1 is completed
+2020-10-20 12:08:08,156 - INFO - Training steps up to now: 396000
+2020-10-20 12:08:08,156 - INFO - Update all training volleys plots...
+2020-10-20 12:08:08,610 - INFO - Plots updated successfully
+2020-10-20 12:08:08,610 - INFO - _____________________________________________________________________________________
+2020-10-20 12:08:08,610 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 12:08:08,610 - INFO - Setup of validation volley 1...
+2020-10-20 12:08:08,610 - INFO - Setup of validation volley 1 completed
+2020-10-20 12:08:08,610 - INFO - Validating for 100 episodes...
+2020-10-20 12:08:29,265 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 12:08:29,265 - INFO - Average total reward: 0.37
+2020-10-20 12:08:29,265 - INFO - Standard deviation of total reward: 0.101
+2020-10-20 12:08:29,265 - INFO - Average scaled reward: 0.004
+2020-10-20 12:08:29,265 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 12:08:29,265 - INFO - Average episode length: 100.0 steps
+2020-10-20 12:08:29,265 - INFO - Save validation volley 1 episodes plots...
+2020-10-20 12:08:29,565 - INFO - Plots of validation volley 1 saved successfully
+2020-10-20 12:08:29,565 - INFO - Validation volley 1 is completed
+2020-10-20 12:08:29,565 - INFO - Update all validation volleys plots...
+2020-10-20 12:08:30,025 - INFO - Plots saved successfully
+2020-10-20 12:08:30,026 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 12:08:30,026 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 12:08:30,108 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 12:08:30,108 - INFO - _____________________________________________________________________________________
+2020-10-20 12:08:30,108 - INFO - Setup of training volley 2...
+2020-10-20 12:08:30,109 - INFO - Setup of training volley 2 completed
+2020-10-20 12:08:30,109 - INFO - Training for 2000 episodes...
+2020-10-20 12:09:46,606 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 12:22:43,248 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 12:32:59,566 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 12:32:59,567 - INFO - Average total reward: 0.378
+2020-10-20 12:32:59,567 - INFO - Standard deviation of total reward: 0.098
+2020-10-20 12:32:59,567 - INFO - Average scaled reward: 0.004
+2020-10-20 12:32:59,567 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 12:32:59,567 - INFO - Average episode length: 100.0 steps
+2020-10-20 12:32:59,567 - INFO - Save training volley 2 episodes plots...
+2020-10-20 12:32:59,878 - INFO - Plots of training volley 2 saved successfully
+2020-10-20 12:32:59,878 - INFO - Training volley 2 is completed
+2020-10-20 12:32:59,878 - INFO - Training steps up to now: 594000
+2020-10-20 12:32:59,878 - INFO - Update all training volleys plots...
+2020-10-20 12:33:00,343 - INFO - Plots updated successfully
+2020-10-20 12:33:00,343 - INFO - _____________________________________________________________________________________
+2020-10-20 12:33:00,343 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 12:33:00,343 - INFO - Setup of validation volley 2...
+2020-10-20 12:33:00,343 - INFO - Setup of validation volley 2 completed
+2020-10-20 12:33:00,343 - INFO - Validating for 100 episodes...
+2020-10-20 12:33:20,877 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 12:33:20,877 - INFO - Average total reward: 0.382
+2020-10-20 12:33:20,877 - INFO - Standard deviation of total reward: 0.103
+2020-10-20 12:33:20,877 - INFO - Average scaled reward: 0.004
+2020-10-20 12:33:20,877 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 12:33:20,877 - INFO - Average episode length: 100.0 steps
+2020-10-20 12:33:20,877 - INFO - Save validation volley 2 episodes plots...
+2020-10-20 12:33:21,187 - INFO - Plots of validation volley 2 saved successfully
+2020-10-20 12:33:21,187 - INFO - Validation volley 2 is completed
+2020-10-20 12:33:21,187 - INFO - Update all validation volleys plots...
+2020-10-20 12:33:21,652 - INFO - Plots updated successfully
+2020-10-20 12:33:21,652 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 12:33:21,652 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 12:33:21,731 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 12:33:21,731 - INFO - _____________________________________________________________________________________
+2020-10-20 12:33:21,731 - INFO - Setup of training volley 3...
+2020-10-20 12:33:21,732 - INFO - Setup of training volley 3 completed
+2020-10-20 12:33:21,732 - INFO - Training for 2000 episodes...
+2020-10-20 12:34:40,421 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 12:46:25,920 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 12:56:42,018 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 12:56:42,018 - INFO - Average total reward: 0.388
+2020-10-20 12:56:42,018 - INFO - Standard deviation of total reward: 0.098
+2020-10-20 12:56:42,018 - INFO - Average scaled reward: 0.004
+2020-10-20 12:56:42,018 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 12:56:42,019 - INFO - Average episode length: 100.0 steps
+2020-10-20 12:56:42,019 - INFO - Save training volley 3 episodes plots...
+2020-10-20 12:56:42,324 - INFO - Plots of training volley 3 saved successfully
+2020-10-20 12:56:42,324 - INFO - Training volley 3 is completed
+2020-10-20 12:56:42,324 - INFO - Training steps up to now: 792000
+2020-10-20 12:56:42,324 - INFO - Update all training volleys plots...
+2020-10-20 12:56:42,804 - INFO - Plots updated successfully
+2020-10-20 12:56:42,804 - INFO - _____________________________________________________________________________________
+2020-10-20 12:56:42,804 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 12:56:42,804 - INFO - Setup of validation volley 3...
+2020-10-20 12:56:42,804 - INFO - Setup of validation volley 3 completed
+2020-10-20 12:56:42,804 - INFO - Validating for 100 episodes...
+2020-10-20 12:57:04,047 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 12:57:04,047 - INFO - Average total reward: 0.367
+2020-10-20 12:57:04,047 - INFO - Standard deviation of total reward: 0.101
+2020-10-20 12:57:04,047 - INFO - Average scaled reward: 0.004
+2020-10-20 12:57:04,047 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 12:57:04,047 - INFO - Average episode length: 100.0 steps
+2020-10-20 12:57:04,047 - INFO - Save validation volley 3 episodes plots...
+2020-10-20 12:57:04,352 - INFO - Plots of validation volley 3 saved successfully
+2020-10-20 12:57:04,352 - INFO - Validation volley 3 is completed
+2020-10-20 12:57:04,352 - INFO - Update all validation volleys plots...
+2020-10-20 12:57:04,885 - INFO - Plots updated successfully
+2020-10-20 12:57:04,885 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 12:57:04,885 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 12:57:05,376 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 12:57:05,376 - INFO - _____________________________________________________________________________________
+2020-10-20 12:57:05,376 - INFO - Setup of training volley 4...
+2020-10-20 12:57:05,377 - INFO - Setup of training volley 4 completed
+2020-10-20 12:57:05,377 - INFO - Training for 2000 episodes...
+2020-10-20 12:58:22,172 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 13:10:00,622 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 13:20:08,357 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 13:20:08,357 - INFO - Average total reward: 0.388
+2020-10-20 13:20:08,357 - INFO - Standard deviation of total reward: 0.095
+2020-10-20 13:20:08,357 - INFO - Average scaled reward: 0.004
+2020-10-20 13:20:08,357 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 13:20:08,358 - INFO - Average episode length: 100.0 steps
+2020-10-20 13:20:08,358 - INFO - Save training volley 4 episodes plots...
+2020-10-20 13:20:08,667 - INFO - Plots of training volley 4 saved successfully
+2020-10-20 13:20:08,667 - INFO - Training volley 4 is completed
+2020-10-20 13:20:08,667 - INFO - Training steps up to now: 990000
+2020-10-20 13:20:08,667 - INFO - Update all training volleys plots...
+2020-10-20 13:20:09,155 - INFO - Plots updated successfully
+2020-10-20 13:20:09,155 - INFO - _____________________________________________________________________________________
+2020-10-20 13:20:09,155 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 13:20:09,155 - INFO - Setup of validation volley 4...
+2020-10-20 13:20:09,155 - INFO - Setup of validation volley 4 completed
+2020-10-20 13:20:09,155 - INFO - Validating for 100 episodes...
+2020-10-20 13:20:29,905 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 13:20:29,905 - INFO - Average total reward: 0.386
+2020-10-20 13:20:29,905 - INFO - Standard deviation of total reward: 0.086
+2020-10-20 13:20:29,905 - INFO - Average scaled reward: 0.004
+2020-10-20 13:20:29,905 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 13:20:29,905 - INFO - Average episode length: 100.0 steps
+2020-10-20 13:20:29,905 - INFO - Save validation volley 4 episodes plots...
+2020-10-20 13:20:30,205 - INFO - Plots of validation volley 4 saved successfully
+2020-10-20 13:20:30,205 - INFO - Validation volley 4 is completed
+2020-10-20 13:20:30,205 - INFO - Update all validation volleys plots...
+2020-10-20 13:20:30,691 - INFO - Plots updated successfully
+2020-10-20 13:20:30,691 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 13:20:30,691 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 13:20:30,772 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 13:20:30,772 - INFO - _____________________________________________________________________________________
+2020-10-20 13:20:30,772 - INFO - Setup of training volley 5...
+2020-10-20 13:20:30,772 - INFO - Setup of training volley 5 completed
+2020-10-20 13:20:30,772 - INFO - Training for 2000 episodes...
+2020-10-20 13:21:51,082 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 13:33:22,763 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 13:43:39,255 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 13:43:39,255 - INFO - Average total reward: 0.392
+2020-10-20 13:43:39,255 - INFO - Standard deviation of total reward: 0.098
+2020-10-20 13:43:39,255 - INFO - Average scaled reward: 0.004
+2020-10-20 13:43:39,255 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 13:43:39,255 - INFO - Average episode length: 100.0 steps
+2020-10-20 13:43:39,255 - INFO - Save training volley 5 episodes plots...
+2020-10-20 13:43:39,579 - INFO - Plots of training volley 5 saved successfully
+2020-10-20 13:43:39,580 - INFO - Training volley 5 is completed
+2020-10-20 13:43:39,580 - INFO - Training steps up to now: 1188000
+2020-10-20 13:43:39,580 - INFO - Update all training volleys plots...
+2020-10-20 13:43:40,066 - INFO - Plots updated successfully
+2020-10-20 13:43:40,066 - INFO - _____________________________________________________________________________________
+2020-10-20 13:43:40,066 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 13:43:40,066 - INFO - Setup of validation volley 5...
+2020-10-20 13:43:40,066 - INFO - Setup of validation volley 5 completed
+2020-10-20 13:43:40,066 - INFO - Validating for 100 episodes...
+2020-10-20 13:44:00,873 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 13:44:00,874 - INFO - Average total reward: 0.417
+2020-10-20 13:44:00,874 - INFO - Standard deviation of total reward: 0.1
+2020-10-20 13:44:00,874 - INFO - Average scaled reward: 0.004
+2020-10-20 13:44:00,874 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 13:44:00,874 - INFO - Average episode length: 100.0 steps
+2020-10-20 13:44:00,874 - INFO - Save validation volley 5 episodes plots...
+2020-10-20 13:44:01,181 - INFO - Plots of validation volley 5 saved successfully
+2020-10-20 13:44:01,181 - INFO - Validation volley 5 is completed
+2020-10-20 13:44:01,181 - INFO - Update all validation volleys plots...
+2020-10-20 13:44:01,670 - INFO - Plots updated successfully
+2020-10-20 13:44:01,670 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 13:44:01,670 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 13:44:01,759 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 13:44:01,760 - INFO - _____________________________________________________________________________________
+2020-10-20 13:44:01,760 - INFO - Setup of training volley 6...
+2020-10-20 13:44:01,760 - INFO - Setup of training volley 6 completed
+2020-10-20 13:44:01,760 - INFO - Training for 2000 episodes...
+2020-10-20 13:45:21,092 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 13:56:59,571 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 14:07:16,806 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 14:07:16,806 - INFO - Average total reward: 0.403
+2020-10-20 14:07:16,806 - INFO - Standard deviation of total reward: 0.094
+2020-10-20 14:07:16,806 - INFO - Average scaled reward: 0.004
+2020-10-20 14:07:16,806 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 14:07:16,806 - INFO - Average episode length: 100.0 steps
+2020-10-20 14:07:16,806 - INFO - Save training volley 6 episodes plots...
+2020-10-20 14:07:17,113 - INFO - Plots of training volley 6 saved successfully
+2020-10-20 14:07:17,113 - INFO - Training volley 6 is completed
+2020-10-20 14:07:17,113 - INFO - Training steps up to now: 1386000
+2020-10-20 14:07:17,113 - INFO - Update all training volleys plots...
+2020-10-20 14:07:17,616 - INFO - Plots updated successfully
+2020-10-20 14:07:17,616 - INFO - _____________________________________________________________________________________
+2020-10-20 14:07:17,616 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 14:07:17,616 - INFO - Setup of validation volley 6...
+2020-10-20 14:07:17,616 - INFO - Setup of validation volley 6 completed
+2020-10-20 14:07:17,616 - INFO - Validating for 100 episodes...
+2020-10-20 14:07:38,259 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 14:07:38,259 - INFO - Average total reward: 0.404
+2020-10-20 14:07:38,259 - INFO - Standard deviation of total reward: 0.1
+2020-10-20 14:07:38,259 - INFO - Average scaled reward: 0.004
+2020-10-20 14:07:38,259 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 14:07:38,259 - INFO - Average episode length: 100.0 steps
+2020-10-20 14:07:38,259 - INFO - Save validation volley 6 episodes plots...
+2020-10-20 14:07:38,565 - INFO - Plots of validation volley 6 saved successfully
+2020-10-20 14:07:38,566 - INFO - Validation volley 6 is completed
+2020-10-20 14:07:38,566 - INFO - Update all validation volleys plots...
+2020-10-20 14:07:39,061 - INFO - Plots updated successfully
+2020-10-20 14:07:39,061 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 14:07:39,061 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 14:07:39,162 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 14:07:39,163 - INFO - _____________________________________________________________________________________
+2020-10-20 14:07:39,163 - INFO - Setup of training volley 7...
+2020-10-20 14:07:39,163 - INFO - Setup of training volley 7 completed
+2020-10-20 14:07:39,163 - INFO - Training for 2000 episodes...
+2020-10-20 14:09:00,970 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 14:20:48,519 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 14:31:10,769 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 14:31:10,769 - INFO - Average total reward: 0.406
+2020-10-20 14:31:10,769 - INFO - Standard deviation of total reward: 0.1
+2020-10-20 14:31:10,769 - INFO - Average scaled reward: 0.004
+2020-10-20 14:31:10,769 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 14:31:10,769 - INFO - Average episode length: 100.0 steps
+2020-10-20 14:31:10,769 - INFO - Save training volley 7 episodes plots...
+2020-10-20 14:31:11,081 - INFO - Plots of training volley 7 saved successfully
+2020-10-20 14:31:11,081 - INFO - Training volley 7 is completed
+2020-10-20 14:31:11,081 - INFO - Training steps up to now: 1584000
+2020-10-20 14:31:11,081 - INFO - Update all training volleys plots...
+2020-10-20 14:31:11,645 - INFO - Plots updated successfully
+2020-10-20 14:31:11,645 - INFO - _____________________________________________________________________________________
+2020-10-20 14:31:11,645 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 14:31:11,645 - INFO - Setup of validation volley 7...
+2020-10-20 14:31:11,645 - INFO - Setup of validation volley 7 completed
+2020-10-20 14:31:11,646 - INFO - Validating for 100 episodes...
+2020-10-20 14:31:32,508 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 14:31:32,508 - INFO - Average total reward: 0.402
+2020-10-20 14:31:32,508 - INFO - Standard deviation of total reward: 0.088
+2020-10-20 14:31:32,508 - INFO - Average scaled reward: 0.004
+2020-10-20 14:31:32,508 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 14:31:32,508 - INFO - Average episode length: 100.0 steps
+2020-10-20 14:31:32,508 - INFO - Save validation volley 7 episodes plots...
+2020-10-20 14:31:32,808 - INFO - Plots of validation volley 7 saved successfully
+2020-10-20 14:31:32,808 - INFO - Validation volley 7 is completed
+2020-10-20 14:31:32,808 - INFO - Update all validation volleys plots...
+2020-10-20 14:31:33,317 - INFO - Plots updated successfully
+2020-10-20 14:31:33,318 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 14:31:33,318 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 14:31:33,760 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 14:31:33,760 - INFO - _____________________________________________________________________________________
+2020-10-20 14:31:33,760 - INFO - Setup of training volley 8...
+2020-10-20 14:31:33,761 - INFO - Setup of training volley 8 completed
+2020-10-20 14:31:33,761 - INFO - Training for 2000 episodes...
+2020-10-20 14:32:54,916 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 14:44:53,253 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 14:58:27,843 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 14:58:27,843 - INFO - Average total reward: 0.418
+2020-10-20 14:58:27,843 - INFO - Standard deviation of total reward: 0.099
+2020-10-20 14:58:27,844 - INFO - Average scaled reward: 0.004
+2020-10-20 14:58:27,844 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 14:58:27,844 - INFO - Average episode length: 100.0 steps
+2020-10-20 14:58:27,844 - INFO - Save training volley 8 episodes plots...
+2020-10-20 14:58:28,233 - INFO - Plots of training volley 8 saved successfully
+2020-10-20 14:58:28,233 - INFO - Training volley 8 is completed
+2020-10-20 14:58:28,233 - INFO - Training steps up to now: 1782000
+2020-10-20 14:58:28,233 - INFO - Update all training volleys plots...
+2020-10-20 14:58:28,801 - INFO - Plots updated successfully
+2020-10-20 14:58:28,801 - INFO - _____________________________________________________________________________________
+2020-10-20 14:58:28,801 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 14:58:28,802 - INFO - Setup of validation volley 8...
+2020-10-20 14:58:28,802 - INFO - Setup of validation volley 8 completed
+2020-10-20 14:58:28,802 - INFO - Validating for 100 episodes...
+2020-10-20 14:58:51,879 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 14:58:51,879 - INFO - Average total reward: 0.402
+2020-10-20 14:58:51,879 - INFO - Standard deviation of total reward: 0.108
+2020-10-20 14:58:51,879 - INFO - Average scaled reward: 0.004
+2020-10-20 14:58:51,879 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 14:58:51,879 - INFO - Average episode length: 100.0 steps
+2020-10-20 14:58:51,880 - INFO - Save validation volley 8 episodes plots...
+2020-10-20 14:58:52,233 - INFO - Plots of validation volley 8 saved successfully
+2020-10-20 14:58:52,234 - INFO - Validation volley 8 is completed
+2020-10-20 14:58:52,234 - INFO - Update all validation volleys plots...
+2020-10-20 14:58:52,811 - INFO - Plots updated successfully
+2020-10-20 14:58:52,812 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 14:58:52,812 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 14:58:53,059 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 14:58:53,059 - INFO - _____________________________________________________________________________________
+2020-10-20 14:58:53,059 - INFO - Setup of training volley 9...
+2020-10-20 14:58:53,060 - INFO - Setup of training volley 9 completed
+2020-10-20 14:58:53,060 - INFO - Training for 2000 episodes...
+2020-10-20 15:00:16,773 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 15:14:36,051 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 15:26:58,248 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 15:26:58,249 - INFO - Average total reward: 0.414
+2020-10-20 15:26:58,249 - INFO - Standard deviation of total reward: 0.096
+2020-10-20 15:26:58,249 - INFO - Average scaled reward: 0.004
+2020-10-20 15:26:58,249 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 15:26:58,249 - INFO - Average episode length: 100.0 steps
+2020-10-20 15:26:58,249 - INFO - Save training volley 9 episodes plots...
+2020-10-20 15:26:58,650 - INFO - Plots of training volley 9 saved successfully
+2020-10-20 15:26:58,650 - INFO - Training volley 9 is completed
+2020-10-20 15:26:58,650 - INFO - Training steps up to now: 1980000
+2020-10-20 15:26:58,650 - INFO - Update all training volleys plots...
+2020-10-20 15:26:59,203 - INFO - Plots updated successfully
+2020-10-20 15:26:59,203 - INFO - _____________________________________________________________________________________
+2020-10-20 15:26:59,203 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 15:26:59,203 - INFO - Setup of validation volley 9...
+2020-10-20 15:26:59,204 - INFO - Setup of validation volley 9 completed
+2020-10-20 15:26:59,204 - INFO - Validating for 100 episodes...
+2020-10-20 15:27:23,440 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 15:27:23,441 - INFO - Average total reward: 0.411
+2020-10-20 15:27:23,441 - INFO - Standard deviation of total reward: 0.084
+2020-10-20 15:27:23,441 - INFO - Average scaled reward: 0.004
+2020-10-20 15:27:23,441 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 15:27:23,441 - INFO - Average episode length: 100.0 steps
+2020-10-20 15:27:23,441 - INFO - Save validation volley 9 episodes plots...
+2020-10-20 15:27:23,777 - INFO - Plots of validation volley 9 saved successfully
+2020-10-20 15:27:23,777 - INFO - Validation volley 9 is completed
+2020-10-20 15:27:23,777 - INFO - Update all validation volleys plots...
+2020-10-20 15:27:24,366 - INFO - Plots updated successfully
+2020-10-20 15:27:24,366 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 15:27:24,366 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 15:27:24,462 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 15:27:24,462 - INFO - _____________________________________________________________________________________
+2020-10-20 15:27:24,462 - INFO - Setup of training volley 10...
+2020-10-20 15:27:24,463 - INFO - Setup of training volley 10 completed
+2020-10-20 15:27:24,463 - INFO - Training for 2000 episodes...
+2020-10-20 15:28:51,920 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 15:45:13,828 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 16:00:06,162 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 16:00:06,162 - INFO - Average total reward: 0.422
+2020-10-20 16:00:06,162 - INFO - Standard deviation of total reward: 0.096
+2020-10-20 16:00:06,162 - INFO - Average scaled reward: 0.004
+2020-10-20 16:00:06,162 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 16:00:06,162 - INFO - Average episode length: 100.0 steps
+2020-10-20 16:00:06,162 - INFO - Save training volley 10 episodes plots...
+2020-10-20 16:00:06,490 - INFO - Plots of training volley 10 saved successfully
+2020-10-20 16:00:06,490 - INFO - Training volley 10 is completed
+2020-10-20 16:00:06,490 - INFO - Training steps up to now: 2178000
+2020-10-20 16:00:06,490 - INFO - Update all training volleys plots...
+2020-10-20 16:00:07,015 - INFO - Plots updated successfully
+2020-10-20 16:00:07,015 - INFO - _____________________________________________________________________________________
+2020-10-20 16:00:07,015 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 16:00:07,015 - INFO - Setup of validation volley 10...
+2020-10-20 16:00:07,015 - INFO - Setup of validation volley 10 completed
+2020-10-20 16:00:07,015 - INFO - Validating for 100 episodes...
+2020-10-20 16:00:28,390 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 16:00:28,390 - INFO - Average total reward: 0.415
+2020-10-20 16:00:28,390 - INFO - Standard deviation of total reward: 0.105
+2020-10-20 16:00:28,390 - INFO - Average scaled reward: 0.004
+2020-10-20 16:00:28,390 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 16:00:28,390 - INFO - Average episode length: 100.0 steps
+2020-10-20 16:00:28,390 - INFO - Save validation volley 10 episodes plots...
+2020-10-20 16:00:28,743 - INFO - Plots of validation volley 10 saved successfully
+2020-10-20 16:00:28,743 - INFO - Validation volley 10 is completed
+2020-10-20 16:00:28,743 - INFO - Update all validation volleys plots...
+2020-10-20 16:00:29,283 - INFO - Plots updated successfully
+2020-10-20 16:00:29,283 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 16:00:29,283 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 16:00:29,435 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 16:00:29,436 - INFO - _____________________________________________________________________________________
+2020-10-20 16:00:29,436 - INFO - Setup of training volley 11...
+2020-10-20 16:00:29,436 - INFO - Setup of training volley 11 completed
+2020-10-20 16:00:29,436 - INFO - Training for 2000 episodes...
+2020-10-20 16:01:48,405 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 16:18:18,726 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 16:30:09,889 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 16:30:09,889 - INFO - Average total reward: 0.426
+2020-10-20 16:30:09,889 - INFO - Standard deviation of total reward: 0.098
+2020-10-20 16:30:09,889 - INFO - Average scaled reward: 0.004
+2020-10-20 16:30:09,890 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 16:30:09,890 - INFO - Average episode length: 100.0 steps
+2020-10-20 16:30:09,890 - INFO - Save training volley 11 episodes plots...
+2020-10-20 16:30:10,354 - INFO - Plots of training volley 11 saved successfully
+2020-10-20 16:30:10,354 - INFO - Training volley 11 is completed
+2020-10-20 16:30:10,354 - INFO - Training steps up to now: 2376000
+2020-10-20 16:30:10,354 - INFO - Update all training volleys plots...
+2020-10-20 16:30:10,845 - INFO - Plots updated successfully
+2020-10-20 16:30:10,845 - INFO - _____________________________________________________________________________________
+2020-10-20 16:30:10,846 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 16:30:10,846 - INFO - Setup of validation volley 11...
+2020-10-20 16:30:10,846 - INFO - Setup of validation volley 11 completed
+2020-10-20 16:30:10,846 - INFO - Validating for 100 episodes...
+2020-10-20 16:30:31,429 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 16:30:31,429 - INFO - Average total reward: 0.433
+2020-10-20 16:30:31,429 - INFO - Standard deviation of total reward: 0.097
+2020-10-20 16:30:31,429 - INFO - Average scaled reward: 0.004
+2020-10-20 16:30:31,429 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 16:30:31,429 - INFO - Average episode length: 100.0 steps
+2020-10-20 16:30:31,429 - INFO - Save validation volley 11 episodes plots...
+2020-10-20 16:30:31,730 - INFO - Plots of validation volley 11 saved successfully
+2020-10-20 16:30:31,730 - INFO - Validation volley 11 is completed
+2020-10-20 16:30:31,730 - INFO - Update all validation volleys plots...
+2020-10-20 16:30:32,221 - INFO - Plots updated successfully
+2020-10-20 16:30:32,221 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 16:30:32,222 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 16:30:32,485 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 16:30:32,485 - INFO - _____________________________________________________________________________________
+2020-10-20 16:30:32,485 - INFO - Setup of training volley 12...
+2020-10-20 16:30:32,486 - INFO - Setup of training volley 12 completed
+2020-10-20 16:30:32,486 - INFO - Training for 2000 episodes...
+2020-10-20 16:31:52,601 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 16:43:32,151 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 16:53:45,601 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 16:53:45,601 - INFO - Average total reward: 0.425
+2020-10-20 16:53:45,601 - INFO - Standard deviation of total reward: 0.091
+2020-10-20 16:53:45,601 - INFO - Average scaled reward: 0.004
+2020-10-20 16:53:45,601 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 16:53:45,601 - INFO - Average episode length: 100.0 steps
+2020-10-20 16:53:45,601 - INFO - Save training volley 12 episodes plots...
+2020-10-20 16:53:46,011 - INFO - Plots of training volley 12 saved successfully
+2020-10-20 16:53:46,011 - INFO - Training volley 12 is completed
+2020-10-20 16:53:46,011 - INFO - Training steps up to now: 2574000
+2020-10-20 16:53:46,011 - INFO - Update all training volleys plots...
+2020-10-20 16:53:46,512 - INFO - Plots updated successfully
+2020-10-20 16:53:46,513 - INFO - _____________________________________________________________________________________
+2020-10-20 16:53:46,513 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 16:53:46,513 - INFO - Setup of validation volley 12...
+2020-10-20 16:53:46,513 - INFO - Setup of validation volley 12 completed
+2020-10-20 16:53:46,513 - INFO - Validating for 100 episodes...
+2020-10-20 16:54:07,505 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 16:54:07,505 - INFO - Average total reward: 0.431
+2020-10-20 16:54:07,506 - INFO - Standard deviation of total reward: 0.089
+2020-10-20 16:54:07,506 - INFO - Average scaled reward: 0.004
+2020-10-20 16:54:07,506 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 16:54:07,506 - INFO - Average episode length: 100.0 steps
+2020-10-20 16:54:07,506 - INFO - Save validation volley 12 episodes plots...
+2020-10-20 16:54:07,805 - INFO - Plots of validation volley 12 saved successfully
+2020-10-20 16:54:07,805 - INFO - Validation volley 12 is completed
+2020-10-20 16:54:07,805 - INFO - Update all validation volleys plots...
+2020-10-20 16:54:08,309 - INFO - Plots updated successfully
+2020-10-20 16:54:08,309 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 16:54:08,309 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 16:54:08,400 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 16:54:08,400 - INFO - _____________________________________________________________________________________
+2020-10-20 16:54:08,400 - INFO - Setup of training volley 13...
+2020-10-20 16:54:08,400 - INFO - Setup of training volley 13 completed
+2020-10-20 16:54:08,400 - INFO - Training for 2000 episodes...
+2020-10-20 16:55:31,031 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 17:07:02,666 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 17:17:21,578 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 17:17:21,583 - INFO - Average total reward: 0.427
+2020-10-20 17:17:21,583 - INFO - Standard deviation of total reward: 0.096
+2020-10-20 17:17:21,583 - INFO - Average scaled reward: 0.004
+2020-10-20 17:17:21,583 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 17:17:21,583 - INFO - Average episode length: 100.0 steps
+2020-10-20 17:17:21,583 - INFO - Save training volley 13 episodes plots...
+2020-10-20 17:17:21,914 - INFO - Plots of training volley 13 saved successfully
+2020-10-20 17:17:21,915 - INFO - Training volley 13 is completed
+2020-10-20 17:17:21,915 - INFO - Training steps up to now: 2772000
+2020-10-20 17:17:21,915 - INFO - Update all training volleys plots...
+2020-10-20 17:17:22,412 - INFO - Plots updated successfully
+2020-10-20 17:17:22,412 - INFO - _____________________________________________________________________________________
+2020-10-20 17:17:22,412 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 17:17:22,412 - INFO - Setup of validation volley 13...
+2020-10-20 17:17:22,412 - INFO - Setup of validation volley 13 completed
+2020-10-20 17:17:22,412 - INFO - Validating for 100 episodes...
+2020-10-20 17:17:43,517 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 17:17:43,517 - INFO - Average total reward: 0.442
+2020-10-20 17:17:43,517 - INFO - Standard deviation of total reward: 0.104
+2020-10-20 17:17:43,517 - INFO - Average scaled reward: 0.004
+2020-10-20 17:17:43,517 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 17:17:43,517 - INFO - Average episode length: 100.0 steps
+2020-10-20 17:17:43,517 - INFO - Save validation volley 13 episodes plots...
+2020-10-20 17:17:43,820 - INFO - Plots of validation volley 13 saved successfully
+2020-10-20 17:17:43,820 - INFO - Validation volley 13 is completed
+2020-10-20 17:17:43,820 - INFO - Update all validation volleys plots...
+2020-10-20 17:17:44,323 - INFO - Plots updated successfully
+2020-10-20 17:17:44,323 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 17:17:44,323 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 17:17:44,613 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 17:17:44,614 - INFO - _____________________________________________________________________________________
+2020-10-20 17:17:44,614 - INFO - Setup of training volley 14...
+2020-10-20 17:17:44,614 - INFO - Setup of training volley 14 completed
+2020-10-20 17:17:44,614 - INFO - Training for 2000 episodes...
+2020-10-20 17:19:07,362 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 17:30:46,735 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 17:41:03,977 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 17:41:03,977 - INFO - Average total reward: 0.43
+2020-10-20 17:41:03,978 - INFO - Standard deviation of total reward: 0.094
+2020-10-20 17:41:03,978 - INFO - Average scaled reward: 0.004
+2020-10-20 17:41:03,978 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 17:41:03,978 - INFO - Average episode length: 100.0 steps
+2020-10-20 17:41:03,978 - INFO - Save training volley 14 episodes plots...
+2020-10-20 17:41:04,287 - INFO - Plots of training volley 14 saved successfully
+2020-10-20 17:41:04,287 - INFO - Training volley 14 is completed
+2020-10-20 17:41:04,287 - INFO - Training steps up to now: 2970000
+2020-10-20 17:41:04,287 - INFO - Update all training volleys plots...
+2020-10-20 17:41:04,794 - INFO - Plots updated successfully
+2020-10-20 17:41:04,794 - INFO - _____________________________________________________________________________________
+2020-10-20 17:41:04,794 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 17:41:04,794 - INFO - Setup of validation volley 14...
+2020-10-20 17:41:04,794 - INFO - Setup of validation volley 14 completed
+2020-10-20 17:41:04,794 - INFO - Validating for 100 episodes...
+2020-10-20 17:41:25,418 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 17:41:25,418 - INFO - Average total reward: 0.427
+2020-10-20 17:41:25,418 - INFO - Standard deviation of total reward: 0.092
+2020-10-20 17:41:25,418 - INFO - Average scaled reward: 0.004
+2020-10-20 17:41:25,418 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 17:41:25,418 - INFO - Average episode length: 100.0 steps
+2020-10-20 17:41:25,418 - INFO - Save validation volley 14 episodes plots...
+2020-10-20 17:41:25,722 - INFO - Plots of validation volley 14 saved successfully
+2020-10-20 17:41:25,722 - INFO - Validation volley 14 is completed
+2020-10-20 17:41:25,722 - INFO - Update all validation volleys plots...
+2020-10-20 17:41:26,235 - INFO - Plots updated successfully
+2020-10-20 17:41:26,236 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 17:41:26,236 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 17:41:26,322 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 17:41:26,322 - INFO - _____________________________________________________________________________________
+2020-10-20 17:41:26,322 - INFO - Setup of training volley 15...
+2020-10-20 17:41:26,323 - INFO - Setup of training volley 15 completed
+2020-10-20 17:41:26,323 - INFO - Training for 2000 episodes...
+2020-10-20 17:42:47,959 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 17:54:22,167 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 18:04:40,416 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 18:04:40,416 - INFO - Average total reward: 0.43
+2020-10-20 18:04:40,416 - INFO - Standard deviation of total reward: 0.095
+2020-10-20 18:04:40,416 - INFO - Average scaled reward: 0.004
+2020-10-20 18:04:40,416 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 18:04:40,416 - INFO - Average episode length: 100.0 steps
+2020-10-20 18:04:40,416 - INFO - Save training volley 15 episodes plots...
+2020-10-20 18:04:40,728 - INFO - Plots of training volley 15 saved successfully
+2020-10-20 18:04:40,728 - INFO - Training volley 15 is completed
+2020-10-20 18:04:40,728 - INFO - Training steps up to now: 3168000
+2020-10-20 18:04:40,728 - INFO - Update all training volleys plots...
+2020-10-20 18:04:41,237 - INFO - Plots updated successfully
+2020-10-20 18:04:41,237 - INFO - _____________________________________________________________________________________
+2020-10-20 18:04:41,237 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 18:04:41,237 - INFO - Setup of validation volley 15...
+2020-10-20 18:04:41,237 - INFO - Setup of validation volley 15 completed
+2020-10-20 18:04:41,237 - INFO - Validating for 100 episodes...
+2020-10-20 18:05:01,651 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 18:05:01,651 - INFO - Average total reward: 0.439
+2020-10-20 18:05:01,651 - INFO - Standard deviation of total reward: 0.098
+2020-10-20 18:05:01,651 - INFO - Average scaled reward: 0.004
+2020-10-20 18:05:01,651 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 18:05:01,651 - INFO - Average episode length: 100.0 steps
+2020-10-20 18:05:01,651 - INFO - Save validation volley 15 episodes plots...
+2020-10-20 18:05:01,962 - INFO - Plots of validation volley 15 saved successfully
+2020-10-20 18:05:01,962 - INFO - Validation volley 15 is completed
+2020-10-20 18:05:01,962 - INFO - Update all validation volleys plots...
+2020-10-20 18:05:02,475 - INFO - Plots updated successfully
+2020-10-20 18:05:02,475 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 18:05:02,475 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 18:05:02,568 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 18:05:02,568 - INFO - _____________________________________________________________________________________
+2020-10-20 18:05:02,568 - INFO - Setup of training volley 16...
+2020-10-20 18:05:02,569 - INFO - Setup of training volley 16 completed
+2020-10-20 18:05:02,569 - INFO - Training for 2000 episodes...
+2020-10-20 18:06:19,630 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 18:17:53,479 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 18:28:11,196 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 18:28:11,196 - INFO - Average total reward: 0.429
+2020-10-20 18:28:11,196 - INFO - Standard deviation of total reward: 0.092
+2020-10-20 18:28:11,196 - INFO - Average scaled reward: 0.004
+2020-10-20 18:28:11,196 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 18:28:11,196 - INFO - Average episode length: 100.0 steps
+2020-10-20 18:28:11,196 - INFO - Save training volley 16 episodes plots...
+2020-10-20 18:28:11,516 - INFO - Plots of training volley 16 saved successfully
+2020-10-20 18:28:11,516 - INFO - Training volley 16 is completed
+2020-10-20 18:28:11,516 - INFO - Training steps up to now: 3366000
+2020-10-20 18:28:11,516 - INFO - Update all training volleys plots...
+2020-10-20 18:28:12,040 - INFO - Plots updated successfully
+2020-10-20 18:28:12,040 - INFO - _____________________________________________________________________________________
+2020-10-20 18:28:12,040 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 18:28:12,040 - INFO - Setup of validation volley 16...
+2020-10-20 18:28:12,040 - INFO - Setup of validation volley 16 completed
+2020-10-20 18:28:12,040 - INFO - Validating for 100 episodes...
+2020-10-20 18:28:33,902 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 18:28:33,902 - INFO - Average total reward: 0.424
+2020-10-20 18:28:33,902 - INFO - Standard deviation of total reward: 0.082
+2020-10-20 18:28:33,902 - INFO - Average scaled reward: 0.004
+2020-10-20 18:28:33,902 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 18:28:33,902 - INFO - Average episode length: 100.0 steps
+2020-10-20 18:28:33,902 - INFO - Save validation volley 16 episodes plots...
+2020-10-20 18:28:34,219 - INFO - Plots of validation volley 16 saved successfully
+2020-10-20 18:28:34,219 - INFO - Validation volley 16 is completed
+2020-10-20 18:28:34,219 - INFO - Update all validation volleys plots...
+2020-10-20 18:28:34,755 - INFO - Plots updated successfully
+2020-10-20 18:28:34,756 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 18:28:34,756 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 18:28:34,842 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 18:28:34,842 - INFO - _____________________________________________________________________________________
+2020-10-20 18:28:34,842 - INFO - Setup of training volley 17...
+2020-10-20 18:28:34,843 - INFO - Setup of training volley 17 completed
+2020-10-20 18:28:34,843 - INFO - Training for 2000 episodes...
+2020-10-20 18:29:53,655 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 18:41:32,801 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 18:51:51,665 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 18:51:51,666 - INFO - Average total reward: 0.433
+2020-10-20 18:51:51,666 - INFO - Standard deviation of total reward: 0.093
+2020-10-20 18:51:51,666 - INFO - Average scaled reward: 0.004
+2020-10-20 18:51:51,666 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 18:51:51,666 - INFO - Average episode length: 100.0 steps
+2020-10-20 18:51:51,666 - INFO - Save training volley 17 episodes plots...
+2020-10-20 18:51:52,125 - INFO - Plots of training volley 17 saved successfully
+2020-10-20 18:51:52,125 - INFO - Training volley 17 is completed
+2020-10-20 18:51:52,125 - INFO - Training steps up to now: 3564000
+2020-10-20 18:51:52,126 - INFO - Update all training volleys plots...
+2020-10-20 18:51:52,646 - INFO - Plots updated successfully
+2020-10-20 18:51:52,646 - INFO - _____________________________________________________________________________________
+2020-10-20 18:51:52,646 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 18:51:52,646 - INFO - Setup of validation volley 17...
+2020-10-20 18:51:52,647 - INFO - Setup of validation volley 17 completed
+2020-10-20 18:51:52,647 - INFO - Validating for 100 episodes...
+2020-10-20 18:52:14,040 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 18:52:14,040 - INFO - Average total reward: 0.442
+2020-10-20 18:52:14,040 - INFO - Standard deviation of total reward: 0.085
+2020-10-20 18:52:14,040 - INFO - Average scaled reward: 0.004
+2020-10-20 18:52:14,040 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 18:52:14,040 - INFO - Average episode length: 100.0 steps
+2020-10-20 18:52:14,041 - INFO - Save validation volley 17 episodes plots...
+2020-10-20 18:52:14,345 - INFO - Plots of validation volley 17 saved successfully
+2020-10-20 18:52:14,345 - INFO - Validation volley 17 is completed
+2020-10-20 18:52:14,345 - INFO - Update all validation volleys plots...
+2020-10-20 18:52:14,872 - INFO - Plots updated successfully
+2020-10-20 18:52:14,872 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 18:52:14,872 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 18:52:14,957 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 18:52:14,957 - INFO - _____________________________________________________________________________________
+2020-10-20 18:52:14,958 - INFO - Setup of training volley 18...
+2020-10-20 18:52:14,958 - INFO - Setup of training volley 18 completed
+2020-10-20 18:52:14,958 - INFO - Training for 2000 episodes...
+2020-10-20 18:53:35,828 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 19:05:15,277 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 19:15:31,969 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 19:15:31,969 - INFO - Average total reward: 0.434
+2020-10-20 19:15:31,969 - INFO - Standard deviation of total reward: 0.091
+2020-10-20 19:15:31,969 - INFO - Average scaled reward: 0.004
+2020-10-20 19:15:31,969 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 19:15:31,969 - INFO - Average episode length: 100.0 steps
+2020-10-20 19:15:31,969 - INFO - Save training volley 18 episodes plots...
+2020-10-20 19:15:32,286 - INFO - Plots of training volley 18 saved successfully
+2020-10-20 19:15:32,286 - INFO - Training volley 18 is completed
+2020-10-20 19:15:32,286 - INFO - Training steps up to now: 3762000
+2020-10-20 19:15:32,286 - INFO - Update all training volleys plots...
+2020-10-20 19:15:32,818 - INFO - Plots updated successfully
+2020-10-20 19:15:32,818 - INFO - _____________________________________________________________________________________
+2020-10-20 19:15:32,818 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 19:15:32,818 - INFO - Setup of validation volley 18...
+2020-10-20 19:15:32,818 - INFO - Setup of validation volley 18 completed
+2020-10-20 19:15:32,818 - INFO - Validating for 100 episodes...
+2020-10-20 19:15:53,443 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 19:15:53,444 - INFO - Average total reward: 0.427
+2020-10-20 19:15:53,444 - INFO - Standard deviation of total reward: 0.09
+2020-10-20 19:15:53,444 - INFO - Average scaled reward: 0.004
+2020-10-20 19:15:53,444 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 19:15:53,444 - INFO - Average episode length: 100.0 steps
+2020-10-20 19:15:53,444 - INFO - Save validation volley 18 episodes plots...
+2020-10-20 19:15:53,746 - INFO - Plots of validation volley 18 saved successfully
+2020-10-20 19:15:53,746 - INFO - Validation volley 18 is completed
+2020-10-20 19:15:53,746 - INFO - Update all validation volleys plots...
+2020-10-20 19:15:54,283 - INFO - Plots updated successfully
+2020-10-20 19:15:54,283 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 19:15:54,283 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 19:15:54,368 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 19:15:54,368 - INFO - _____________________________________________________________________________________
+2020-10-20 19:15:54,368 - INFO - Setup of training volley 19...
+2020-10-20 19:15:54,369 - INFO - Setup of training volley 19 completed
+2020-10-20 19:15:54,369 - INFO - Training for 2000 episodes...
+2020-10-20 19:17:20,216 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 19:28:55,733 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 19:39:12,026 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 19:39:12,027 - INFO - Average total reward: 0.431
+2020-10-20 19:39:12,027 - INFO - Standard deviation of total reward: 0.091
+2020-10-20 19:39:12,027 - INFO - Average scaled reward: 0.004
+2020-10-20 19:39:12,027 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 19:39:12,027 - INFO - Average episode length: 100.0 steps
+2020-10-20 19:39:12,027 - INFO - Save training volley 19 episodes plots...
+2020-10-20 19:39:12,455 - INFO - Plots of training volley 19 saved successfully
+2020-10-20 19:39:12,455 - INFO - Training volley 19 is completed
+2020-10-20 19:39:12,455 - INFO - Training steps up to now: 3960000
+2020-10-20 19:39:12,455 - INFO - Update all training volleys plots...
+2020-10-20 19:39:12,955 - INFO - Plots updated successfully
+2020-10-20 19:39:12,955 - INFO - _____________________________________________________________________________________
+2020-10-20 19:39:12,955 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 19:39:12,955 - INFO - Setup of validation volley 19...
+2020-10-20 19:39:12,955 - INFO - Setup of validation volley 19 completed
+2020-10-20 19:39:12,955 - INFO - Validating for 100 episodes...
+2020-10-20 19:39:33,308 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 19:39:33,308 - INFO - Average total reward: 0.432
+2020-10-20 19:39:33,308 - INFO - Standard deviation of total reward: 0.095
+2020-10-20 19:39:33,308 - INFO - Average scaled reward: 0.004
+2020-10-20 19:39:33,308 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 19:39:33,308 - INFO - Average episode length: 100.0 steps
+2020-10-20 19:39:33,308 - INFO - Save validation volley 19 episodes plots...
+2020-10-20 19:39:33,611 - INFO - Plots of validation volley 19 saved successfully
+2020-10-20 19:39:33,611 - INFO - Validation volley 19 is completed
+2020-10-20 19:39:33,611 - INFO - Update all validation volleys plots...
+2020-10-20 19:39:34,114 - INFO - Plots updated successfully
+2020-10-20 19:39:34,114 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 19:39:34,114 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 19:39:34,199 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 19:39:34,199 - INFO - _____________________________________________________________________________________
+2020-10-20 19:39:34,200 - INFO - Setup of training volley 20...
+2020-10-20 19:39:34,200 - INFO - Setup of training volley 20 completed
+2020-10-20 19:39:34,200 - INFO - Training for 2000 episodes...
+2020-10-20 19:40:52,469 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 19:52:31,821 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 20:02:55,992 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 20:02:55,992 - INFO - Average total reward: 0.432
+2020-10-20 20:02:55,992 - INFO - Standard deviation of total reward: 0.096
+2020-10-20 20:02:55,992 - INFO - Average scaled reward: 0.004
+2020-10-20 20:02:55,992 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 20:02:55,992 - INFO - Average episode length: 100.0 steps
+2020-10-20 20:02:55,992 - INFO - Save training volley 20 episodes plots...
+2020-10-20 20:02:56,332 - INFO - Plots of training volley 20 saved successfully
+2020-10-20 20:02:56,332 - INFO - Training volley 20 is completed
+2020-10-20 20:02:56,332 - INFO - Training steps up to now: 4158000
+2020-10-20 20:02:56,332 - INFO - Update all training volleys plots...
+2020-10-20 20:02:56,875 - INFO - Plots updated successfully
+2020-10-20 20:02:56,876 - INFO - _____________________________________________________________________________________
+2020-10-20 20:02:56,876 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 20:02:56,876 - INFO - Setup of validation volley 20...
+2020-10-20 20:02:56,876 - INFO - Setup of validation volley 20 completed
+2020-10-20 20:02:56,876 - INFO - Validating for 100 episodes...
+2020-10-20 20:03:18,820 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 20:03:18,820 - INFO - Average total reward: 0.442
+2020-10-20 20:03:18,820 - INFO - Standard deviation of total reward: 0.107
+2020-10-20 20:03:18,820 - INFO - Average scaled reward: 0.004
+2020-10-20 20:03:18,821 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 20:03:18,821 - INFO - Average episode length: 100.0 steps
+2020-10-20 20:03:18,821 - INFO - Save validation volley 20 episodes plots...
+2020-10-20 20:03:19,131 - INFO - Plots of validation volley 20 saved successfully
+2020-10-20 20:03:19,131 - INFO - Validation volley 20 is completed
+2020-10-20 20:03:19,131 - INFO - Update all validation volleys plots...
+2020-10-20 20:03:19,646 - INFO - Plots updated successfully
+2020-10-20 20:03:19,646 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 20:03:19,646 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 20:03:19,734 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 20:03:19,734 - INFO - _____________________________________________________________________________________
+2020-10-20 20:03:19,734 - INFO - Setup of training volley 21...
+2020-10-20 20:03:19,735 - INFO - Setup of training volley 21 completed
+2020-10-20 20:03:19,735 - INFO - Training for 2000 episodes...
+2020-10-20 20:04:41,252 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 20:18:26,844 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 20:29:25,944 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 20:29:25,945 - INFO - Average total reward: 0.434
+2020-10-20 20:29:25,945 - INFO - Standard deviation of total reward: 0.1
+2020-10-20 20:29:25,945 - INFO - Average scaled reward: 0.004
+2020-10-20 20:29:25,945 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 20:29:25,945 - INFO - Average episode length: 100.0 steps
+2020-10-20 20:29:25,945 - INFO - Save training volley 21 episodes plots...
+2020-10-20 20:29:26,262 - INFO - Plots of training volley 21 saved successfully
+2020-10-20 20:29:26,262 - INFO - Training volley 21 is completed
+2020-10-20 20:29:26,262 - INFO - Training steps up to now: 4356000
+2020-10-20 20:29:26,262 - INFO - Update all training volleys plots...
+2020-10-20 20:29:26,777 - INFO - Plots updated successfully
+2020-10-20 20:29:26,778 - INFO - _____________________________________________________________________________________
+2020-10-20 20:29:26,778 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 20:29:26,778 - INFO - Setup of validation volley 21...
+2020-10-20 20:29:26,778 - INFO - Setup of validation volley 21 completed
+2020-10-20 20:29:26,778 - INFO - Validating for 100 episodes...
+2020-10-20 20:29:48,012 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 20:29:48,012 - INFO - Average total reward: 0.424
+2020-10-20 20:29:48,012 - INFO - Standard deviation of total reward: 0.082
+2020-10-20 20:29:48,012 - INFO - Average scaled reward: 0.004
+2020-10-20 20:29:48,012 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 20:29:48,012 - INFO - Average episode length: 100.0 steps
+2020-10-20 20:29:48,012 - INFO - Save validation volley 21 episodes plots...
+2020-10-20 20:29:48,331 - INFO - Plots of validation volley 21 saved successfully
+2020-10-20 20:29:48,331 - INFO - Validation volley 21 is completed
+2020-10-20 20:29:48,331 - INFO - Update all validation volleys plots...
+2020-10-20 20:29:48,852 - INFO - Plots updated successfully
+2020-10-20 20:29:48,852 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 20:29:48,852 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 20:29:48,942 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 20:29:48,942 - INFO - _____________________________________________________________________________________
+2020-10-20 20:29:48,942 - INFO - Setup of training volley 22...
+2020-10-20 20:29:48,943 - INFO - Setup of training volley 22 completed
+2020-10-20 20:29:48,943 - INFO - Training for 2000 episodes...
+2020-10-20 20:31:07,594 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 20:43:13,746 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 20:53:58,121 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 20:53:58,121 - INFO - Average total reward: 0.437
+2020-10-20 20:53:58,121 - INFO - Standard deviation of total reward: 0.094
+2020-10-20 20:53:58,121 - INFO - Average scaled reward: 0.004
+2020-10-20 20:53:58,121 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 20:53:58,121 - INFO - Average episode length: 100.0 steps
+2020-10-20 20:53:58,121 - INFO - Save training volley 22 episodes plots...
+2020-10-20 20:53:58,440 - INFO - Plots of training volley 22 saved successfully
+2020-10-20 20:53:58,440 - INFO - Training volley 22 is completed
+2020-10-20 20:53:58,440 - INFO - Training steps up to now: 4554000
+2020-10-20 20:53:58,440 - INFO - Update all training volleys plots...
+2020-10-20 20:53:58,960 - INFO - Plots updated successfully
+2020-10-20 20:53:58,960 - INFO - _____________________________________________________________________________________
+2020-10-20 20:53:58,960 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 20:53:58,960 - INFO - Setup of validation volley 22...
+2020-10-20 20:53:58,960 - INFO - Setup of validation volley 22 completed
+2020-10-20 20:53:58,960 - INFO - Validating for 100 episodes...
+2020-10-20 20:54:19,994 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 20:54:19,994 - INFO - Average total reward: 0.444
+2020-10-20 20:54:19,994 - INFO - Standard deviation of total reward: 0.106
+2020-10-20 20:54:19,994 - INFO - Average scaled reward: 0.004
+2020-10-20 20:54:19,994 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 20:54:19,994 - INFO - Average episode length: 100.0 steps
+2020-10-20 20:54:19,994 - INFO - Save validation volley 22 episodes plots...
+2020-10-20 20:54:20,312 - INFO - Plots of validation volley 22 saved successfully
+2020-10-20 20:54:20,312 - INFO - Validation volley 22 is completed
+2020-10-20 20:54:20,312 - INFO - Update all validation volleys plots...
+2020-10-20 20:54:20,838 - INFO - Plots updated successfully
+2020-10-20 20:54:20,838 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 20:54:20,838 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 20:54:20,935 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 20:54:20,935 - INFO - _____________________________________________________________________________________
+2020-10-20 20:54:20,935 - INFO - Setup of training volley 23...
+2020-10-20 20:54:20,936 - INFO - Setup of training volley 23 completed
+2020-10-20 20:54:20,936 - INFO - Training for 2000 episodes...
+2020-10-20 20:55:39,709 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 21:07:46,877 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 21:18:13,873 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 21:18:13,874 - INFO - Average total reward: 0.435
+2020-10-20 21:18:13,874 - INFO - Standard deviation of total reward: 0.093
+2020-10-20 21:18:13,874 - INFO - Average scaled reward: 0.004
+2020-10-20 21:18:13,874 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 21:18:13,874 - INFO - Average episode length: 100.0 steps
+2020-10-20 21:18:13,874 - INFO - Save training volley 23 episodes plots...
+2020-10-20 21:18:14,193 - INFO - Plots of training volley 23 saved successfully
+2020-10-20 21:18:14,194 - INFO - Training volley 23 is completed
+2020-10-20 21:18:14,194 - INFO - Training steps up to now: 4752000
+2020-10-20 21:18:14,194 - INFO - Update all training volleys plots...
+2020-10-20 21:18:14,719 - INFO - Plots updated successfully
+2020-10-20 21:18:14,719 - INFO - _____________________________________________________________________________________
+2020-10-20 21:18:14,719 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 21:18:14,719 - INFO - Setup of validation volley 23...
+2020-10-20 21:18:14,719 - INFO - Setup of validation volley 23 completed
+2020-10-20 21:18:14,719 - INFO - Validating for 100 episodes...
+2020-10-20 21:18:35,278 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 21:18:35,279 - INFO - Average total reward: 0.432
+2020-10-20 21:18:35,279 - INFO - Standard deviation of total reward: 0.084
+2020-10-20 21:18:35,279 - INFO - Average scaled reward: 0.004
+2020-10-20 21:18:35,279 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 21:18:35,279 - INFO - Average episode length: 100.0 steps
+2020-10-20 21:18:35,279 - INFO - Save validation volley 23 episodes plots...
+2020-10-20 21:18:35,581 - INFO - Plots of validation volley 23 saved successfully
+2020-10-20 21:18:35,581 - INFO - Validation volley 23 is completed
+2020-10-20 21:18:35,581 - INFO - Update all validation volleys plots...
+2020-10-20 21:18:36,116 - INFO - Plots updated successfully
+2020-10-20 21:18:36,116 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 21:18:36,116 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 21:18:36,204 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 21:18:36,204 - INFO - _____________________________________________________________________________________
+2020-10-20 21:18:36,204 - INFO - Setup of training volley 24...
+2020-10-20 21:18:36,205 - INFO - Setup of training volley 24 completed
+2020-10-20 21:18:36,205 - INFO - Training for 2000 episodes...
+2020-10-20 21:19:56,326 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 21:31:31,471 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 21:41:35,007 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 21:41:35,007 - INFO - Average total reward: 0.438
+2020-10-20 21:41:35,007 - INFO - Standard deviation of total reward: 0.092
+2020-10-20 21:41:35,007 - INFO - Average scaled reward: 0.004
+2020-10-20 21:41:35,007 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 21:41:35,007 - INFO - Average episode length: 100.0 steps
+2020-10-20 21:41:35,007 - INFO - Save training volley 24 episodes plots...
+2020-10-20 21:41:35,470 - INFO - Plots of training volley 24 saved successfully
+2020-10-20 21:41:35,470 - INFO - Training volley 24 is completed
+2020-10-20 21:41:35,470 - INFO - Training steps up to now: 4950000
+2020-10-20 21:41:35,470 - INFO - Update all training volleys plots...
+2020-10-20 21:41:35,993 - INFO - Plots updated successfully
+2020-10-20 21:41:35,993 - INFO - _____________________________________________________________________________________
+2020-10-20 21:41:35,993 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 21:41:35,993 - INFO - Setup of validation volley 24...
+2020-10-20 21:41:35,993 - INFO - Setup of validation volley 24 completed
+2020-10-20 21:41:35,993 - INFO - Validating for 100 episodes...
+2020-10-20 21:41:57,083 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 21:41:57,083 - INFO - Average total reward: 0.44
+2020-10-20 21:41:57,083 - INFO - Standard deviation of total reward: 0.095
+2020-10-20 21:41:57,084 - INFO - Average scaled reward: 0.004
+2020-10-20 21:41:57,084 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 21:41:57,084 - INFO - Average episode length: 100.0 steps
+2020-10-20 21:41:57,084 - INFO - Save validation volley 24 episodes plots...
+2020-10-20 21:41:57,395 - INFO - Plots of validation volley 24 saved successfully
+2020-10-20 21:41:57,395 - INFO - Validation volley 24 is completed
+2020-10-20 21:41:57,395 - INFO - Update all validation volleys plots...
+2020-10-20 21:41:57,932 - INFO - Plots updated successfully
+2020-10-20 21:41:57,932 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 21:41:57,932 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 21:41:58,027 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 21:41:58,027 - INFO - _____________________________________________________________________________________
+2020-10-20 21:41:58,027 - INFO - Setup of training volley 25...
+2020-10-20 21:41:58,028 - INFO - Setup of training volley 25 completed
+2020-10-20 21:41:58,028 - INFO - Training for 2000 episodes...
+2020-10-20 21:43:16,270 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 21:54:39,559 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 22:04:45,084 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 22:04:45,085 - INFO - Average total reward: 0.442
+2020-10-20 22:04:45,085 - INFO - Standard deviation of total reward: 0.097
+2020-10-20 22:04:45,085 - INFO - Average scaled reward: 0.004
+2020-10-20 22:04:45,085 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 22:04:45,085 - INFO - Average episode length: 100.0 steps
+2020-10-20 22:04:45,085 - INFO - Save training volley 25 episodes plots...
+2020-10-20 22:04:45,589 - INFO - Plots of training volley 25 saved successfully
+2020-10-20 22:04:45,589 - INFO - Training volley 25 is completed
+2020-10-20 22:04:45,589 - INFO - Training steps up to now: 5148000
+2020-10-20 22:04:45,589 - INFO - Update all training volleys plots...
+2020-10-20 22:04:46,125 - INFO - Plots updated successfully
+2020-10-20 22:04:46,125 - INFO - _____________________________________________________________________________________
+2020-10-20 22:04:46,125 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 22:04:46,125 - INFO - Setup of validation volley 25...
+2020-10-20 22:04:46,125 - INFO - Setup of validation volley 25 completed
+2020-10-20 22:04:46,125 - INFO - Validating for 100 episodes...
+2020-10-20 22:05:06,948 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 22:05:06,948 - INFO - Average total reward: 0.443
+2020-10-20 22:05:06,948 - INFO - Standard deviation of total reward: 0.088
+2020-10-20 22:05:06,948 - INFO - Average scaled reward: 0.004
+2020-10-20 22:05:06,948 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 22:05:06,948 - INFO - Average episode length: 100.0 steps
+2020-10-20 22:05:06,948 - INFO - Save validation volley 25 episodes plots...
+2020-10-20 22:05:07,247 - INFO - Plots of validation volley 25 saved successfully
+2020-10-20 22:05:07,247 - INFO - Validation volley 25 is completed
+2020-10-20 22:05:07,247 - INFO - Update all validation volleys plots...
+2020-10-20 22:05:07,770 - INFO - Plots updated successfully
+2020-10-20 22:05:07,770 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 22:05:07,770 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 22:05:07,855 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 22:05:07,855 - INFO - _____________________________________________________________________________________
+2020-10-20 22:05:07,855 - INFO - Setup of training volley 26...
+2020-10-20 22:05:07,855 - INFO - Setup of training volley 26 completed
+2020-10-20 22:05:07,855 - INFO - Training for 2000 episodes...
+2020-10-20 22:06:28,017 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 22:17:45,101 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 22:28:38,823 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 22:28:38,823 - INFO - Average total reward: 0.44
+2020-10-20 22:28:38,823 - INFO - Standard deviation of total reward: 0.097
+2020-10-20 22:28:38,823 - INFO - Average scaled reward: 0.004
+2020-10-20 22:28:38,824 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 22:28:38,824 - INFO - Average episode length: 100.0 steps
+2020-10-20 22:28:38,824 - INFO - Save training volley 26 episodes plots...
+2020-10-20 22:28:39,153 - INFO - Plots of training volley 26 saved successfully
+2020-10-20 22:28:39,154 - INFO - Training volley 26 is completed
+2020-10-20 22:28:39,154 - INFO - Training steps up to now: 5346000
+2020-10-20 22:28:39,154 - INFO - Update all training volleys plots...
+2020-10-20 22:28:39,705 - INFO - Plots updated successfully
+2020-10-20 22:28:39,705 - INFO - _____________________________________________________________________________________
+2020-10-20 22:28:39,705 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 22:28:39,705 - INFO - Setup of validation volley 26...
+2020-10-20 22:28:39,705 - INFO - Setup of validation volley 26 completed
+2020-10-20 22:28:39,705 - INFO - Validating for 100 episodes...
+2020-10-20 22:29:03,411 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 22:29:03,411 - INFO - Average total reward: 0.431
+2020-10-20 22:29:03,411 - INFO - Standard deviation of total reward: 0.095
+2020-10-20 22:29:03,411 - INFO - Average scaled reward: 0.004
+2020-10-20 22:29:03,412 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 22:29:03,412 - INFO - Average episode length: 100.0 steps
+2020-10-20 22:29:03,412 - INFO - Save validation volley 26 episodes plots...
+2020-10-20 22:29:03,722 - INFO - Plots of validation volley 26 saved successfully
+2020-10-20 22:29:03,722 - INFO - Validation volley 26 is completed
+2020-10-20 22:29:03,722 - INFO - Update all validation volleys plots...
+2020-10-20 22:29:04,307 - INFO - Plots updated successfully
+2020-10-20 22:29:04,307 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 22:29:04,308 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 22:29:04,397 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 22:29:04,397 - INFO - _____________________________________________________________________________________
+2020-10-20 22:29:04,398 - INFO - Setup of training volley 27...
+2020-10-20 22:29:04,398 - INFO - Setup of training volley 27 completed
+2020-10-20 22:29:04,398 - INFO - Training for 2000 episodes...
+2020-10-20 22:30:30,369 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 22:50:25,407 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 23:09:16,059 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 23:09:16,059 - INFO - Average total reward: 0.437
+2020-10-20 23:09:16,059 - INFO - Standard deviation of total reward: 0.098
+2020-10-20 23:09:16,059 - INFO - Average scaled reward: 0.004
+2020-10-20 23:09:16,059 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 23:09:16,059 - INFO - Average episode length: 100.0 steps
+2020-10-20 23:09:16,059 - INFO - Save training volley 27 episodes plots...
+2020-10-20 23:09:16,403 - INFO - Plots of training volley 27 saved successfully
+2020-10-20 23:09:16,403 - INFO - Training volley 27 is completed
+2020-10-20 23:09:16,403 - INFO - Training steps up to now: 5544000
+2020-10-20 23:09:16,403 - INFO - Update all training volleys plots...
+2020-10-20 23:09:16,969 - INFO - Plots updated successfully
+2020-10-20 23:09:16,969 - INFO - _____________________________________________________________________________________
+2020-10-20 23:09:16,969 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 23:09:16,969 - INFO - Setup of validation volley 27...
+2020-10-20 23:09:16,969 - INFO - Setup of validation volley 27 completed
+2020-10-20 23:09:16,969 - INFO - Validating for 100 episodes...
+2020-10-20 23:09:38,240 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 23:09:38,240 - INFO - Average total reward: 0.425
+2020-10-20 23:09:38,240 - INFO - Standard deviation of total reward: 0.087
+2020-10-20 23:09:38,240 - INFO - Average scaled reward: 0.004
+2020-10-20 23:09:38,240 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 23:09:38,240 - INFO - Average episode length: 100.0 steps
+2020-10-20 23:09:38,240 - INFO - Save validation volley 27 episodes plots...
+2020-10-20 23:09:38,549 - INFO - Plots of validation volley 27 saved successfully
+2020-10-20 23:09:38,549 - INFO - Validation volley 27 is completed
+2020-10-20 23:09:38,550 - INFO - Update all validation volleys plots...
+2020-10-20 23:09:39,108 - INFO - Plots updated successfully
+2020-10-20 23:09:39,108 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 23:09:39,109 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 23:09:39,206 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 23:09:39,206 - INFO - _____________________________________________________________________________________
+2020-10-20 23:09:39,206 - INFO - Setup of training volley 28...
+2020-10-20 23:09:39,207 - INFO - Setup of training volley 28 completed
+2020-10-20 23:09:39,207 - INFO - Training for 2000 episodes...
+2020-10-20 23:11:01,468 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 23:31:32,363 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-20 23:51:22,183 - INFO - Training for 2000 episodes finished with following result:
+2020-10-20 23:51:22,184 - INFO - Average total reward: 0.439
+2020-10-20 23:51:22,184 - INFO - Standard deviation of total reward: 0.096
+2020-10-20 23:51:22,184 - INFO - Average scaled reward: 0.004
+2020-10-20 23:51:22,184 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 23:51:22,184 - INFO - Average episode length: 100.0 steps
+2020-10-20 23:51:22,184 - INFO - Save training volley 28 episodes plots...
+2020-10-20 23:51:22,521 - INFO - Plots of training volley 28 saved successfully
+2020-10-20 23:51:22,521 - INFO - Training volley 28 is completed
+2020-10-20 23:51:22,521 - INFO - Training steps up to now: 5742000
+2020-10-20 23:51:22,521 - INFO - Update all training volleys plots...
+2020-10-20 23:51:23,089 - INFO - Plots updated successfully
+2020-10-20 23:51:23,089 - INFO - _____________________________________________________________________________________
+2020-10-20 23:51:23,089 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 23:51:23,089 - INFO - Setup of validation volley 28...
+2020-10-20 23:51:23,090 - INFO - Setup of validation volley 28 completed
+2020-10-20 23:51:23,090 - INFO - Validating for 100 episodes...
+2020-10-20 23:51:45,159 - INFO - Validating for 100 episodes finished with following result:
+2020-10-20 23:51:45,160 - INFO - Average total reward: 0.435
+2020-10-20 23:51:45,160 - INFO - Standard deviation of total reward: 0.099
+2020-10-20 23:51:45,160 - INFO - Average scaled reward: 0.004
+2020-10-20 23:51:45,160 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-20 23:51:45,160 - INFO - Average episode length: 100.0 steps
+2020-10-20 23:51:45,160 - INFO - Save validation volley 28 episodes plots...
+2020-10-20 23:51:45,475 - INFO - Plots of validation volley 28 saved successfully
+2020-10-20 23:51:45,476 - INFO - Validation volley 28 is completed
+2020-10-20 23:51:45,476 - INFO - Update all validation volleys plots...
+2020-10-20 23:51:46,018 - INFO - Plots updated successfully
+2020-10-20 23:51:46,018 - INFO - ---------------------------------------------------------------------------------------
+2020-10-20 23:51:46,018 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-20 23:51:46,129 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-20 23:51:46,129 - INFO - _____________________________________________________________________________________
+2020-10-20 23:51:46,129 - INFO - Setup of training volley 29...
+2020-10-20 23:51:46,130 - INFO - Setup of training volley 29 completed
+2020-10-20 23:51:46,130 - INFO - Training for 2000 episodes...
+2020-10-20 23:53:08,724 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-21 00:11:54,911 - INFO - Updating the model with a buffer of 100000 samples
+2020-10-21 00:26:00,256 - INFO - Training for 2000 episodes finished with following result:
+2020-10-21 00:26:00,256 - INFO - Average total reward: 0.439
+2020-10-21 00:26:00,256 - INFO - Standard deviation of total reward: 0.093
+2020-10-21 00:26:00,256 - INFO - Average scaled reward: 0.004
+2020-10-21 00:26:00,256 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-21 00:26:00,256 - INFO - Average episode length: 100.0 steps
+2020-10-21 00:26:00,256 - INFO - Save training volley 29 episodes plots...
+2020-10-21 00:26:00,665 - INFO - Plots of training volley 29 saved successfully
+2020-10-21 00:26:00,665 - INFO - Training volley 29 is completed
+2020-10-21 00:26:00,665 - INFO - Training steps up to now: 5940000
+2020-10-21 00:26:00,665 - INFO - Update all training volleys plots...
+2020-10-21 00:26:01,232 - INFO - Plots updated successfully
+2020-10-21 00:26:01,232 - INFO - _____________________________________________________________________________________
+2020-10-21 00:26:01,232 - INFO - ---------------------------------------------------------------------------------------
+2020-10-21 00:26:01,232 - INFO - Setup of validation volley 29...
+2020-10-21 00:26:01,232 - INFO - Setup of validation volley 29 completed
+2020-10-21 00:26:01,232 - INFO - Validating for 100 episodes...
+2020-10-21 00:26:24,855 - INFO - Validating for 100 episodes finished with following result:
+2020-10-21 00:26:24,856 - INFO - Average total reward: 0.44
+2020-10-21 00:26:24,856 - INFO - Standard deviation of total reward: 0.088
+2020-10-21 00:26:24,856 - INFO - Average scaled reward: 0.004
+2020-10-21 00:26:24,856 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-21 00:26:24,856 - INFO - Average episode length: 100.0 steps
+2020-10-21 00:26:24,856 - INFO - Save validation volley 29 episodes plots...
+2020-10-21 00:26:25,203 - INFO - Plots of validation volley 29 saved successfully
+2020-10-21 00:26:25,203 - INFO - Validation volley 29 is completed
+2020-10-21 00:26:25,203 - INFO - Update all validation volleys plots...
+2020-10-21 00:26:25,801 - INFO - Plots updated successfully
+2020-10-21 00:26:25,801 - INFO - ---------------------------------------------------------------------------------------
+2020-10-21 00:26:25,802 - INFO - Saving the agent ppo_agent metagraph at path F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph/rngad_10_exp_baseline_l1...
+2020-10-21 00:26:25,903 - INFO - Agent ppo_agent metagraph saved successfully
+2020-10-21 00:26:25,904 - INFO - End of training
+2020-10-21 00:26:25,921 - INFO - Experiment rngad_10_exp_baseline_l1: testing process started
+2020-10-21 00:26:25,924 - INFO - Initializing the environment...
+2020-10-21 00:26:25,924 - INFO - Environment initialized
+2020-10-21 00:26:25,924 - INFO - Initializing the agent..
+2020-10-21 00:26:26,044 - INFO - Model initialized to default state
+2020-10-21 00:26:26,044 - INFO - Agent initialized
+2020-10-21 00:26:26,044 - INFO - Restoring agent graph with checkpoint path: F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph
+2020-10-21 00:26:26,099 - INFO - Model graph stored at F:\Workspace\PyCharm\RngRL\experiments/rng_append_discrete_10_ppo_2020-10-20/rngad_10_exp_baseline_l1/metagraph loaded successfully!
+2020-10-21 00:26:26,099 - INFO - Agent restored
+2020-10-21 00:26:26,099 - INFO - Setup of test volley 0...
+2020-10-21 00:26:26,099 - INFO - Testing for 100 episodes...
+2020-10-21 00:26:34,704 - INFO - Testing for 100 episodes finished with following result:
+2020-10-21 00:26:34,704 - INFO - Average total reward: 0.439
+2020-10-21 00:26:34,704 - INFO - Standard deviation of total reward: 0.098
+2020-10-21 00:26:34,704 - INFO - Average scaled reward: 0.004
+2020-10-21 00:26:34,704 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-21 00:26:34,704 - INFO - Average episode length: 100.0 steps
+2020-10-21 00:26:34,704 - INFO - Setup of test volley 1...
+2020-10-21 00:26:34,704 - INFO - Testing for 100 episodes...
+2020-10-21 00:26:43,021 - INFO - Testing for 100 episodes finished with following result:
+2020-10-21 00:26:43,021 - INFO - Average total reward: 0.452
+2020-10-21 00:26:43,021 - INFO - Standard deviation of total reward: 0.104
+2020-10-21 00:26:43,021 - INFO - Average scaled reward: 0.005
+2020-10-21 00:26:43,021 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-21 00:26:43,021 - INFO - Average episode length: 100.0 steps
+2020-10-21 00:26:43,022 - INFO - Setup of test volley 2...
+2020-10-21 00:26:43,022 - INFO - Testing for 100 episodes...
+2020-10-21 00:26:51,241 - INFO - Testing for 100 episodes finished with following result:
+2020-10-21 00:26:51,241 - INFO - Average total reward: 0.466
+2020-10-21 00:26:51,241 - INFO - Standard deviation of total reward: 0.136
+2020-10-21 00:26:51,242 - INFO - Average scaled reward: 0.005
+2020-10-21 00:26:51,242 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-21 00:26:51,242 - INFO - Average episode length: 100.0 steps
+2020-10-21 00:26:51,242 - INFO - Setup of test volley 3...
+2020-10-21 00:26:51,242 - INFO - Testing for 100 episodes...
+2020-10-21 00:26:59,587 - INFO - Testing for 100 episodes finished with following result:
+2020-10-21 00:26:59,587 - INFO - Average total reward: 0.448
+2020-10-21 00:26:59,587 - INFO - Standard deviation of total reward: 0.118
+2020-10-21 00:26:59,587 - INFO - Average scaled reward: 0.004
+2020-10-21 00:26:59,587 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-21 00:26:59,587 - INFO - Average episode length: 100.0 steps
+2020-10-21 00:26:59,587 - INFO - Setup of test volley 4...
+2020-10-21 00:26:59,587 - INFO - Testing for 100 episodes...
+2020-10-21 00:27:07,846 - INFO - Testing for 100 episodes finished with following result:
+2020-10-21 00:27:07,846 - INFO - Average total reward: 0.444
+2020-10-21 00:27:07,846 - INFO - Standard deviation of total reward: 0.088
+2020-10-21 00:27:07,846 - INFO - Average scaled reward: 0.004
+2020-10-21 00:27:07,847 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-21 00:27:07,847 - INFO - Average episode length: 100.0 steps
+2020-10-21 00:27:07,847 - INFO - Setup of test volley 5...
+2020-10-21 00:27:07,847 - INFO - Testing for 100 episodes...
+2020-10-21 00:27:16,327 - INFO - Testing for 100 episodes finished with following result:
+2020-10-21 00:27:16,327 - INFO - Average total reward: 0.42
+2020-10-21 00:27:16,327 - INFO - Standard deviation of total reward: 0.1
+2020-10-21 00:27:16,327 - INFO - Average scaled reward: 0.004
+2020-10-21 00:27:16,327 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-21 00:27:16,328 - INFO - Average episode length: 100.0 steps
+2020-10-21 00:27:16,328 - INFO - Setup of test volley 6...
+2020-10-21 00:27:16,328 - INFO - Testing for 100 episodes...
+2020-10-21 00:27:24,691 - INFO - Testing for 100 episodes finished with following result:
+2020-10-21 00:27:24,691 - INFO - Average total reward: 0.44
+2020-10-21 00:27:24,692 - INFO - Standard deviation of total reward: 0.099
+2020-10-21 00:27:24,692 - INFO - Average scaled reward: 0.004
+2020-10-21 00:27:24,692 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-21 00:27:24,692 - INFO - Average episode length: 100.0 steps
+2020-10-21 00:27:24,692 - INFO - Setup of test volley 7...
+2020-10-21 00:27:24,692 - INFO - Testing for 100 episodes...
+2020-10-21 00:27:33,219 - INFO - Testing for 100 episodes finished with following result:
+2020-10-21 00:27:33,219 - INFO - Average total reward: 0.458
+2020-10-21 00:27:33,219 - INFO - Standard deviation of total reward: 0.121
+2020-10-21 00:27:33,219 - INFO - Average scaled reward: 0.005
+2020-10-21 00:27:33,219 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-21 00:27:33,219 - INFO - Average episode length: 100.0 steps
+2020-10-21 00:27:33,219 - INFO - Setup of test volley 8...
+2020-10-21 00:27:33,219 - INFO - Testing for 100 episodes...
+2020-10-21 00:27:41,736 - INFO - Testing for 100 episodes finished with following result:
+2020-10-21 00:27:41,736 - INFO - Average total reward: 0.451
+2020-10-21 00:27:41,736 - INFO - Standard deviation of total reward: 0.087
+2020-10-21 00:27:41,736 - INFO - Average scaled reward: 0.005
+2020-10-21 00:27:41,736 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-21 00:27:41,736 - INFO - Average episode length: 100.0 steps
+2020-10-21 00:27:41,736 - INFO - Setup of test volley 9...
+2020-10-21 00:27:41,736 - INFO - Testing for 100 episodes...
+2020-10-21 00:27:50,202 - INFO - Testing for 100 episodes finished with following result:
+2020-10-21 00:27:50,202 - INFO - Average total reward: 0.435
+2020-10-21 00:27:50,202 - INFO - Standard deviation of total reward: 0.094
+2020-10-21 00:27:50,202 - INFO - Average scaled reward: 0.004
+2020-10-21 00:27:50,202 - INFO - Standard deviation of scaled reward: 0.001
+2020-10-21 00:27:50,202 - INFO - Average episode length: 100.0 steps
+2020-10-21 00:27:50,202 - INFO - End of test
+2020-10-21 00:27:50,202 - INFO - Results over 10 test volleys of 100 episodes each are:
+2020-10-21 00:27:50,202 - INFO - Average test total reward: 0.445
+2020-10-21 00:27:50,202 - INFO - Average test scaled reward: 0.004
+2020-10-21 00:27:50,203 - INFO - Max test total reward: 0.466
+2020-10-21 00:27:50,203 - INFO - Max test scaled reward: 0.005
+2020-10-21 00:27:50,203 - INFO - Average test standard deviation of total reward: 0.105
+2020-10-21 00:27:50,203 - INFO - Average test standard deviation of scaled reward: 0.001
+2020-10-21 00:27:50,203 - INFO - Min test standard deviation of total reward: 0.087
+2020-10-21 00:27:50,203 - INFO - Min test standard deviation of scaled reward: 0.001
+2020-10-21 00:27:50,203 - INFO - Average test episode length: 100.0
+2020-10-21 00:27:50,203 - INFO - The experiment terminated without meeting the requirements

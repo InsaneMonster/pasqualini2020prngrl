@@ -1,0 +1,23 @@
+rngd_50_exp_baseline_l1 results:
+
+Success  Average total reward  Max total reward  Average scaled reward  Max scaled reward  Trained episodes
+     NO                 0.152             0.161                  0.001              0.001            300000
+
+
+
+Maximum average total reward over all 1000 test episodes: 0.152 at experiment number 0
+Maximum max total score over 100 test episodes: 0.161 at experiment number 0
+Maximum average scaled reward over all 1000 test episodes: 0.001 at experiment number 0
+Maximum max scaled score over 100 test episodes: 0.001 at experiment number 0
+Minimum training episodes for validation: 300000 at experiment number 0
+Average of average total reward over all experiments 0.152
+Average of max total reward over all experiments: 0.161
+Average of average scaled reward over all experiments 0.001
+Average of max scaled reward over all experiments: 0.001
+Average of training episodes over all experiments: 300000.000
+Success percentage over all experiments: 0.00
+Standard deviation of average total reward over all experiments: 0.000, which is a 0.00% of the average
+Standard deviation of max total reward over all experiments 0.000, which is a 0.00% of the average
+Standard deviation of average scaled reward over all experiments: 0.000, which is a 0.00% of the average
+Standard deviation of max scaled reward over all experiments 0.000, which is a 0.00% of the average
+Standard deviation of training episodes over all experiments: 0.000, which is a 0.00% of the average
