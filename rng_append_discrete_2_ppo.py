@@ -26,9 +26,9 @@ def _define_ppo_model(actor_config: Config, critic_config: Config) -> ProximalPo
     learning_rate_policy: float = 3e-4
     learning_rate_advantage: float = 1e-3
     discount_factor: float = 1.0
-    value_steps_per_update: int = 40
-    policy_steps_per_update: int = 40
-    minibatch_size: int = 64
+    value_steps_per_update: int = 80
+    policy_steps_per_update: int = 80
+    minibatch_size: int = 32
     lambda_parameter: float = 0.95
     clip_ratio: float = 0.2
     target_kl_divergence: float = 0.01
@@ -108,7 +108,7 @@ def run(workspace: str,
     parallel: int = 100
     training_episodes: int = 2000
     validation_episodes: int = 100
-    training_validation_volleys: int = 35
+    training_validation_volleys: int = 30
     test_episodes: int = 100
     test_volleys: int = 10
     episode_length_max: int = 10000
