@@ -16,7 +16,7 @@ The agent can only observe the last appended sequence at each time step and uses
 Link to previous work on `arXiv <https://arxiv.org/abs/1912.11531?context=cs.AI>`_.
 Link to previous work `published article <https://www.sciencedirect.com/science/article/pii/S1877050920304944?via%3Dihub>`_.
 
-Link to the published article <https://www.mdpi.com/1999-4893/13/11/307>`_.
+Link to the `published article <https://www.mdpi.com/1999-4893/13/11/307>`_.
 Link to the `arXiv article <https://arxiv.org/pdf/1912.11531.pdf>`_.
 
 The algorithm used is Proximal Policy Optimization (PPO) with rewards-to-go and Generalized Advantage Estimation (GAE-Lambda) buffer.
